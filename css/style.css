@@ -839,6 +839,11 @@ input[type=number] {
 
 @media only screen and (max-width: 415px) {
 
+    .work__title {
+        margin-bottom: 5px;
+        font-size: 22px;
+    }
+
     .testimonails {
         margin-top: 10px;
     }
