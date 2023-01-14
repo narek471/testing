@@ -122,6 +122,33 @@ body {
     color: #a3c1e7;
 }
 
+.menu-btn {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index:2;
+    overflow: hidden;
+    display: none;
+}
+.menu-btn span {
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #004a6a;
+    transition: all 0.5s;
+}
+.menu-btn span:nth-of-type(2) {
+    top: calc(50% - 10px);
+}
+.menu-btn span:nth-of-type(3) {
+    top: calc(50% + 10px);
+}
+
 /******************* Main ******************/
 
 .main {
@@ -734,6 +761,15 @@ input[type=number] {
 
     .mirax__bottom__content {
         margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 993px) {
+    .header__menu__list {
+        display: none;
+    }
+    .menu-btn {
+        display: block;
     }
 }
 
