@@ -659,6 +659,14 @@ input[type=number] {
         width: 400px;
     }
 
+    .testimonails {
+        margin-top: 40px;
+    }
+
+    .testimonails__title {
+        text-align: center;
+    }
+
     .testimonails__carousel.owl-carousel.owl-loaded {
         display: none !important;
     }
@@ -666,6 +674,229 @@ input[type=number] {
     .testimonails__carousel__mobile.owl-carousel.owl-loaded {
         display: flex !important;
         justify-content: center;
+        margin: 70px auto 0;
+        width: 530px;
+    }
+
+    .testimonails__carousel__mobile > .owl-nav > .owl-next {
+        position: absolute;
+        top: -20px;
+        right: -50px;
+        font-size: 80px !important;
+    }
+
+    .testimonails__carousel__mobile > .owl-nav > .owl-prev {
+        position: absolute;
+        top: -20px;
+        left: -50px;
+        font-size: 80px !important;
+    }
+
+    .owl-dots {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        bottom: -50px;
+        width: 132px;
+    }
+
+    .contacts__form__first {
+        width: 40%;
+    }
+
+    .contacts__form__second {
+        width: 60%;
+        align-items: flex-end;
+    }
+
+    .contacts__form__second > input {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .main {
+        margin-top: 30px;
+    }
+
+    .mirax__top {
+        flex-direction: column-reverse;
+    }
+
+    .mirax__top__content {
+        margin-left: 10px;
+    }
+
+    .mirax__bottom {
+        flex-direction: column;
+    }
+
+    .mirax__bottom__content {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .contacts__form__input {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts__form__left,
+    .contacts__form__right {
+        width: 80%;
+        border-right: 0;
+    }
+
+    .contacts__form__left {
+        padding-bottom: 20px;
+    }
+
+    .contacts__form__right {
+        padding-top: 0;
+    }
+
+    .contacts__form__second {
+        align-items: flex-start;
+    }
+
+    .contacts__form__second > input {
+        width: 100%;
+    }
+
+    .contacts__form__bottom {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .testimonails__block {
+        width: 300px;
+    }
+
+    .testimonails__carousel__mobile.owl-carousel.owl-loaded {
+        width: 300px;
+    }
+
+    .testimonails__block__bottom {
+        text-align: center;
+    }
+
+    .testimonails__block__button {
+        margin: 20px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+
+    .mirax__top__title {
+        font-size: 21px;
+    }
+    .mirax__top__subtitle,
+    .mirax__top__text {
+        font-size: 18px;
+    }
+
+    .mirax__bottom__subtitle {
+        font-size: 21px;
+    }
+
+    .mirax__bottom__text {
+        font-size: 18px;
+    }
+
+    .contacts__form__left,
+    .contacts__form__right {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+
+    .contacts__title {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 20px;
+    }
+
+    .testimonails__block__text {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .contacts__form__left {
+        padding: 20px 5px 0 5px;
+    }
+
+    .contacts__form__right {
+        padding: 20px 5px;
+    }
+
+    .contacts {
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 415px) {
+
+    .testimonails {
+        margin-top: 10px;
+    }
+
+    .testimonails__title {
+        font-size: 21px;
+    }
+
+    .testimonails__block {
+        width: 240px;
+    }
+
+    .testimonails__carousel__mobile.owl-carousel.owl-loaded {
+        width: 240px;
+    }
+
+    .testimonails__block__main {
+        padding: 10px 5px 10px 10px;
+    }
+
+    .testimonails__block__text {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .contacts__form__first > label {
+        font-size: 15px;
+    }
+
+    .contacts__form__first {
+        width: 40%;
+    }
+
+    .contacts__form__second {
+        width: 60%;
+        align-items: flex-end;
+    }
+
+    .contacts__form__second > input {
+        width: 95%;
+        font-size: 15px;
+    }
+
+    .contacts__title {
+        font-size: 18px;
+        line-height: 20px;
+        margin: 15px 0 15px 10px;
+    }
+}
+
+@media only screen and (max-width: 382px) {
+    .contacts__form__first {
+        width: 45%;
+    }
+
+    .contacts__form__second {
+        width: 55%;
+        align-items: flex-end;
     }
 }
 

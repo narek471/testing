@@ -9,7 +9,7 @@ $('.testimonails__carousel').owlCarousel({
 
 $('.testimonails__carousel__mobile').owlCarousel({
     loop:true,
-    margin:100,
+    margin:10,
     dots: true,
     nav:true,
     items:1,
