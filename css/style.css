@@ -63,7 +63,7 @@ body {
 }
 
 .header__logo {
-    padding: 14px 6px;
+    padding: 10px 6px;
 }
 
 .header__logo__link {
@@ -126,8 +126,8 @@ body {
     width: 30px;
     height: 30px;
     position: absolute;
-    right: 20px;
-    top: 20px;
+    right: 10px;
+    top: 15px;
     z-index:2;
     overflow: hidden;
     display: none;
