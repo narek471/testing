@@ -384,6 +384,7 @@ body {
     top: -20px;
     right: -100px;
     font-size: 80px !important;
+    display: none;
 }
 
 .owl-dots {
