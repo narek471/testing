@@ -13,6 +13,12 @@
     font-display: swap;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -62,6 +68,12 @@ body {
 
 .header__logo__link {
     text-decoration: none;
+}
+
+.header__menu {
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .header__menu__list {
@@ -143,8 +155,8 @@ body {
 }
 
 .mirax__top__content {
-    margin-top: 75px;
-    margin-right: 200px;
+    margin-top: 90px;
+    margin-right: 170px;
 }
 
 .mirax__top__title {
@@ -166,6 +178,7 @@ body {
     line-height: 23px;
     margin-left: 30px;
     position: relative;
+    margin-bottom: 12px;
 }
 
 .mirax__top__text:before {
@@ -187,7 +200,7 @@ body {
 }
 
 .mirax__bottom__content {
-    margin-left: 110px;
+    margin-left: 100px;
 }
 
 .mirax__bottom__subtitle {
@@ -230,7 +243,7 @@ body {
 .work__row {
     max-width: 1240px;
     width: 100%;
-    margin-left: 110px;
+    margin: 0 auto;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -280,7 +293,7 @@ body {
 
 .work__video {
     position: absolute;
-    width: 1470px;
+    width: 1440px;
     top: -110px;
     left: 0;
     right: 0;
@@ -291,8 +304,8 @@ body {
 
 .work__background {
     position: absolute;
-    width: 1470px;
-    height: 828px;
+    width: 1440px;
+    height: 810px;
     top: -110px;
     left: 0;
     right: 0;
@@ -335,6 +348,7 @@ body {
     position: relative;
     width: 100%;
     border-bottom: 1px solid black;
+    padding: 20px 0 20px 20px;
 }
 
 .testimonails__block__bottom {
@@ -346,19 +360,17 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 23px;
-    margin-left: 20px;
 }
 
 .testimonails__block__city{
     font-size: 16px;
     line-height: 18px;
-    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .testimonails__block__text {
     font-size: 20px;
     line-height: 23px;
-    margin-left: 20px;
 }
 
 .testimonails__block__button {
@@ -536,6 +548,55 @@ input[type=number] {
     cursor: pointer;
     font-weight: 500;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 1470px) {
+
+    .mirax__top__content {
+        margin-right: 150px;
+    }
+
+    .mirax__top__title {
+        font-size: 23px;
+    }
+    .mirax__top__subtitle,
+    .mirax__top__text {
+        font-size: 19px;
+    }
+
+    .mirax__bottom__content {
+        margin-left: 50px;
+    }
+
+    .mirax__bottom__subtitle {
+        font-size: 23px;
+    }
+
+    .mirax__bottom__text {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 1375px) {
+
+    .mirax__top__content {
+        margin-left: 50px;
+        margin-right: 15px;
+    }
+
+    .mirax__top__text > br {
+        display: none;
+    }
+
+    .mirax__bottom__content {
+        margin-right: 50px;
+        margin-left: 10px;
+    }
+
+    .br__none {
+        display: none;
+    }
+
 }
 
 
