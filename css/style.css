@@ -413,7 +413,9 @@ body {
     width: 100%;
     position: relative;
     padding: 90px 0;
-    background-color: darkgrey;
+    background-image: url("../img/4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contacts__row {
