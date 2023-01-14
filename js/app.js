@@ -6,3 +6,12 @@ $('.testimonails__carousel').owlCarousel({
     items:2,
     autoplay:false
 })
+
+$('.testimonails__carousel__mobile').owlCarousel({
+    loop:true,
+    margin:100,
+    dots: true,
+    nav:true,
+    items:1,
+    autoplay:false
+})
