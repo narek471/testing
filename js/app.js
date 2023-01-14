@@ -4,5 +4,5 @@ $('.testimonails__carousel').owlCarousel({
     dots: true,
     nav:true,
     items:2,
-    autoplay:true
+    autoplay:false
 })
