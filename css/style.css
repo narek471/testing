@@ -228,6 +228,14 @@ body {
     max-width: 1470px;
 }
 
+.work__top {
+    width: 100%;
+    max-width: 1240px;
+    margin: 110px auto 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
 .work__title {
     font-family: 'Monument Extended', sans-serif;
     font-style: normal;
@@ -235,8 +243,6 @@ body {
     font-size: 24px;
     line-height: 29px;
     color: #fff;
-    margin-top: 110px;
-    margin-left: 110px;
     margin-bottom: 20px;
 }
 
@@ -293,7 +299,7 @@ body {
 
 .work__video {
     position: absolute;
-    width: 1440px;
+    max-width: 1440px;
     top: -110px;
     left: 0;
     right: 0;
@@ -593,10 +599,22 @@ input[type=number] {
         margin-left: 10px;
     }
 
+    .mirax__bottom__subtitle {
+        margin-top: 60px;
+    }
+
     .br__none {
         display: none;
     }
 
+    .testimonails__carousel > .owl-nav > .owl-next {
+        right: -55px;
+    }
+
+    .owl-dots {
+        right: -70px;
+        bottom: -7px;
+    }
 }
 
 
