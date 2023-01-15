@@ -128,7 +128,7 @@ body {
     position: absolute;
     right: 10px;
     top: 15px;
-    z-index:2;
+    z-index:30;
     overflow: hidden;
     display: none;
 }
@@ -147,6 +147,19 @@ body {
 }
 .menu-btn span:nth-of-type(3) {
     top: calc(50% + 10px);
+}
+
+.mobile__menu__list {
+    width: 100%;
+    position: absolute;
+    padding: 20px 0  40px 40px;
+    top: -120px;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    list-style-type: none;
+    z-index: 20;
+    transition: all 0.5s ease;
 }
 
 /******************* Main ******************/
