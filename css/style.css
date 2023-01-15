@@ -152,14 +152,18 @@ body {
 .mobile__menu__list {
     width: 100%;
     position: absolute;
-    padding: 20px 0  40px 40px;
-    top: -120px;
+    padding: 20px 0  15px 40px;
+    top: -200px;
     left: 0;
     right: 0;
     background-color: #fff;
     list-style-type: none;
     z-index: 20;
     transition: all 0.5s ease;
+}
+
+.mobile__menu__item {
+    margin-bottom: 4px;
 }
 
 /******************* Main ******************/
