@@ -214,6 +214,7 @@ body {
 .gallery__item img{
     width: 100%;
     height: 300px;
+    object-fit: cover;
 }
 
 .item__text {
@@ -326,4 +327,125 @@ body {
 
 .footer__logo > .site__logo {
     width: 80px;
+}
+
+@media only screen and (max-width: 1100px) {
+    .header__title {
+        font-size: 30px;
+    }
+
+    .gallery__item {
+        width: 300px;
+        height: 260px;
+    }
+}
+
+@media only screen and (max-width: 972px) {
+    .header__top {
+        padding: 0;
+    }
+
+    .tickets__content {
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .header__title {
+        font-size: 25px;
+    }
+
+    .white__text {
+        font-size: 18px;
+    }
+
+    .white__tel {
+        font-size: 18px;
+        padding: 14px 30px;
+    }
+
+    .trip__title {
+        font-size: 25px;
+        padding: 15px 0;
+    }
+
+    .trip__tel {
+        padding: 10px 0;
+    }
+
+    .trip__img {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+
+    .white {
+        padding: 50px 0;
+    }
+
+    .white__row {
+        flex-direction: column-reverse;
+    }
+
+    .white__text {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .white__left {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .tickets__title {
+        font-size: 35px;
+    }
+
+    .tickets__text {
+        font-size: 17px;
+    }
+
+    .trip__title {
+        font-size: 21px;
+    }
+
+    .trip__img {
+        width: 120px;
+    }
+
+    .footer__copyright {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+
+    .site__logo {
+        width: 45px;
+    }
+
+    .tickets__title {
+        font-size: 29px;
+    }
+
+    .tickets__text {
+        font-size: 15px;
+    }
+
+    .trip__title {
+        font-size: 19px;
+    }
+
+    .trip__tel {
+        padding: 8px 0;
+        font-size: 15px;
+    }
+
+    .trip__img {
+        width: 100px;
+    }
 }
