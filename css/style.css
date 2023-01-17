@@ -445,7 +445,7 @@ body {
     .modal-content {
         background-color: #11264f;
         position: relative;
-        height: 90vh;
+        height: 80vh;
         min-height: 500px;
         margin: 10% auto;
         padding: 20px;
