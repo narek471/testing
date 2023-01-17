@@ -75,6 +75,12 @@ body {
     text-decoration: none;
     color: #000;
     font-size: 20px;
+    margin-top: 10px;
+}
+
+.site__logo {
+    width: 60px;
+    object-fit: cover;
 }
 
 .header__tel.tel {
@@ -316,4 +322,8 @@ body {
 .footer__copyright {
     margin-top: 50px;
     color: rgba(255, 255, 255, 0.34);
+}
+
+.footer__logo > .site__logo {
+    width: 80px;
 }
