@@ -607,14 +607,14 @@ input[type=number] {
     }
 
     .block2__input {
-        width: 300px;
+        width: 320px;
         margin-right: 0;
         margin-bottom: 20px;
     }
 
     .block2__btn {
         margin-top: 60px;
-        width: 300px;
+        width: 320px;
     }
 
     .checkbox__label {
@@ -634,18 +634,18 @@ input[type=number] {
     }
 
     .block3__input {
-        width: 300px;
+        width: 320px;
         margin-right: 0;
         margin-bottom: 20px;
     }
 
     .block3__btn {
         margin-top: 60px;
-        width: 300px;
+        width: 320px;
     }
 
     .checkbox__label2 {
-        width: 300px;
+        width: 320px;
         font-size: 14px;
         bottom: 70px;
     }
