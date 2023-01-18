@@ -82,6 +82,44 @@ body {
     margin-top: 10px;
 }
 
+.header__bottom {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.header__confirm {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header__confirm > span {
+    font-size: 30px;
+    color: #ffffff;
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+.modal__tel.tel {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 30px;
+    text-align: center;
+    justify-content: center;
+    background-color: red;
+    margin-top: 30px;
+    border-radius: 12px;
+    color: #ffffff;
+}
+
 .site__logo {
     width: 60px;
     object-fit: cover;
@@ -104,7 +142,7 @@ body {
 
 .header__title {
     text-align: center;
-    margin-top: 90px;
+    margin-top: 60px;
     color: #000000;
     font-size: 40px;
 }
@@ -204,15 +242,10 @@ body {
 .gallery__item {
     position: relative;
     width: 340px;
-    height: 300px;
-    background-color: #b2b2b2;
     overflow: hidden;
-}
-
-.gallery__item:hover .item__text {
-    top: 0;
-    transform: rotate(0) skew(0);
-    opacity: 0.8;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 20px;
 }
 
 .gallery__item img{
@@ -223,12 +256,6 @@ body {
 
 .item__text {
     width: 100%;
-    height: 100%;
-    position: absolute;
-    top: -100%;
-    background-color: rgb(2,0,36);
-    opacity: 0;
-    transition: all 0.5s;
     color: white;
     text-align: center;
 }
