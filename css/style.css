@@ -96,7 +96,7 @@ body {
     font-size: 24px;
     text-align: center;
     margin-top: 30px;
-    color: #fff;
+    color: rgba(30, 63, 112, 1);
 }
 
 .header__confirm > span {
@@ -105,7 +105,7 @@ body {
     border: 2px solid rgba(128, 128, 128, 0.08);
     padding: 10px 15px;
     border-radius: 50%;
-    background-color: rgba(30, 63, 112, 0.77);
+    background-color: rgba(30, 63, 112, 0.99);
     box-shadow: 10px 10px 73px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 73px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 73px 0px rgba(0,0,0,0.75);
