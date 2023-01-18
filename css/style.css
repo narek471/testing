@@ -720,6 +720,8 @@ input[type=number] {
     .block3__title,
     .block3__text {
         width: 320px;
+        padding-left: 0;
+        padding-right: 0;
     }
 
     .block3__text {
@@ -752,5 +754,9 @@ input[type=number] {
     .block5__title,
     .block5__text {
         width: 320px;
+    }
+
+    #br__hide {
+        display: block;
     }
 }
