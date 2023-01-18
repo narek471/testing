@@ -598,7 +598,7 @@ input[type=number] {
 
     /*********** Block2 **********/
     .block2__row {
-        padding: 40px 15px 140px;
+        padding: 40px 15px 60px;
     }
 
     .block2__form {
@@ -625,7 +625,7 @@ input[type=number] {
 
     /*********** Block3 **********/
     .block3__row {
-        padding: 40px 5px 60px;
+        padding: 40px 5px 120px;
     }
 
     .block3__form {
@@ -656,10 +656,18 @@ input[type=number] {
         right: unset;
     }
 
+    .block4__btn {
+        width: 320px;
+    }
+
     /*********** Block5 **********/
     .block5__img {
         position: relative;
         left: -15px;
+    }
+
+    .block5__btn {
+        width: 320px;
     }
 }
 
@@ -684,5 +692,25 @@ input[type=number] {
     .block5__text{
         width: unset;
         padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    /*********** Block 1 **********/
+    .block1__img {
+        width: 300px;
+    }
+
+    /*********** Block 4 **********/
+    .block4__row {
+        padding-bottom: 0;
+        overflow: hidden;
+    }
+
+    .block4__img {
+        width: 350px;
+        height: 265px;
+        margin-top: 20px;
+        object-fit: cover;
     }
 }
