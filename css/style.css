@@ -155,8 +155,24 @@ body {
     margin-right: 31px;
 }
 
+.block2__input:focus {
+    outline: 0;
+}
+
 .block2__checkbox {
     display: none;
+}
+
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+input[type=number] {
+    -moz-appearance: textfield;
 }
 
 .checkbox__label {
@@ -295,6 +311,10 @@ body {
     line-height: 19px;
     color: #B5B5B5;
     margin-right: 31px;
+}
+
+.block3__input:focus {
+    outline: 0;
 }
 
 .block3__checkbox {
