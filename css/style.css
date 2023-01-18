@@ -524,3 +524,9 @@ input[type=number] {
     left: 30px;
     bottom: 0;
 }
+
+/************* Media ************/
+
+@media only screen and (max-width: 1230px) {
+
+}
