@@ -701,6 +701,15 @@ input[type=number] {
         width: 300px;
     }
 
+    /*********** Block 3 **********/
+    .block3__row {
+        padding-bottom: 85px;
+    }
+
+    .block3__text {
+        margin-bottom: 60px;
+    }
+
     /*********** Block 4 **********/
     .block4__row {
         padding-bottom: 0;
@@ -712,5 +721,10 @@ input[type=number] {
         height: 265px;
         margin-top: 20px;
         object-fit: cover;
+    }
+
+    /*********** Block 5 **********/
+    .block5__row {
+        padding-bottom: 27px;
     }
 }
