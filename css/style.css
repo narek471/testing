@@ -701,9 +701,25 @@ input[type=number] {
         width: 300px;
     }
 
+    .block1__title,
+    .block1__text {
+        width: 320px;
+    }
+
+    /*********** Block 2 **********/
+    .block2__title,
+    .block2__text {
+        width: 320px;
+    }
+
     /*********** Block 3 **********/
     .block3__row {
         padding-bottom: 85px;
+    }
+
+    .block3__title,
+    .block3__text {
+        width: 320px;
     }
 
     .block3__text {
@@ -716,6 +732,11 @@ input[type=number] {
         overflow: hidden;
     }
 
+    .block4__title,
+    .block4__text {
+        width: 320px;
+    }
+
     .block4__img {
         width: 350px;
         height: 265px;
@@ -726,5 +747,10 @@ input[type=number] {
     /*********** Block 5 **********/
     .block5__row {
         padding-bottom: 27px;
+    }
+
+    .block5__title,
+    .block5__text {
+        width: 320px;
     }
 }
