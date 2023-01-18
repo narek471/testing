@@ -142,6 +142,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .block2__input {
@@ -300,6 +301,7 @@ input[type=number] {
     position: relative;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .block3__input {
@@ -502,6 +504,7 @@ input[type=number] {
     text-decoration: none;
     color: rgba(0, 175, 240, 1);
     font-weight: 900;
+    white-space: nowrap;
 }
 
 .block5__btn {
@@ -529,4 +532,153 @@ input[type=number] {
 
 @media only screen and (max-width: 1230px) {
 
+    /*********** Block1 **********/
+    .block1__row {
+        padding-right: 50px;
+    }
+
+    /*********** Block2 **********/
+    .block2__row {
+        padding-right: 110px;
+        padding-left: 110px;
+    }
+
+    /*********** Block3 **********/
+    .block3__row {
+        padding-right: 110px;
+        padding-left: 110px;
+    }
+}
+
+@media only screen and (max-width: 1123px) {
+
+    /*********** Block1 **********/
+    .block1__row {
+        padding: 60px 15px 60px 0;
+    }
+
+    /*********** Block2 **********/
+    .block2__row {
+        padding: 40px 60px 140px;
+    }
+
+    /*********** Block3 **********/
+    .block3__row {
+        padding: 40px 60px 140px;
+    }
+
+    /*********** Block4 **********/
+    .block4__img {
+        right: -30px;
+    }
+
+    /*********** Block5 **********/
+    .block5__img {
+        left: -5px;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+
+    /*********** Block1 **********/
+    .block1__row {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 20px 15px;
+    }
+
+    .block1__right {
+        text-align: center;
+        align-items: center;
+    }
+
+    .block1__left {
+        margin-top: 20px;
+    }
+
+    /*********** Block2 **********/
+    .block2__row {
+        padding: 40px 15px 140px;
+    }
+
+    .block2__form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block2__input {
+        width: 300px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .block2__btn {
+        margin-top: 60px;
+        width: 300px;
+    }
+
+    .checkbox__label {
+        width: 300px;
+        font-size: 14px;
+        bottom: 70px;
+    }
+
+    /*********** Block3 **********/
+    .block3__form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block3__input {
+        width: 300px;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .block3__btn {
+        margin-top: 60px;
+        width: 300px;
+    }
+
+    .checkbox__label2 {
+        width: 300px;
+        font-size: 14px;
+        bottom: 70px;
+    }
+
+    /*********** Block4 **********/
+    .block4__img {
+        position: relative;
+        right: unset;
+    }
+
+    /*********** Block5 **********/
+    .block5__img {
+        position: relative;
+        left: -15px;
+    }
+}
+
+@media only screen and (max-width: 721px) {
+    .block1__title,
+    .block2__title,
+    .block3__title,
+    .block4__title,
+    .block5__title {
+        padding-left: 15px;
+        padding-right: 15px;
+        width: unset;
+        height: unset;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .block1__text,
+    .block2__text,
+    .block3__text,
+    .block4__text,
+    .block5__text{
+        width: unset;
+        padding: 0 10px;
+    }
 }
