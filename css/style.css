@@ -261,6 +261,7 @@ input[type=number] {
 }
 
 .block2__btn:active {
+    width: 273px;
     font-size: 15px;
     border-radius: 4px;
     -webkit-box-shadow: 1px -1px 50px 4px rgb(0, 53, 129);
@@ -417,10 +418,11 @@ input[type=number] {
 }
 
 .block3__btn:active {
+    width: 273px;
     font-size: 15px;
     border-radius: 4px;
-    -webkit-box-shadow: 1px -1px 50px 8px rgba(164,115,24,0.72);
-    box-shadow: 1px -1px 50px 8px rgba(164,115,24,0.72);
+    -webkit-box-shadow: 1px -1px 50px 4px rgb(0, 53, 129);
+    box-shadow: 1px -1px 50px 4px rgb(0, 53, 129);
 }
 
 /***************** Block 4***************/
