@@ -432,8 +432,8 @@ input[type=number] {
 }
 
 .block3__btn:hover {
-    -webkit-box-shadow: 1px -1px 50px 7px rgb(0, 53, 129);
-    box-shadow: 1px -1px 50px 7px rgb(0, 53, 129);
+    -webkit-box-shadow: 1px -1px 50px 8px rgba(164,115,24,0.72);
+    box-shadow: 1px -1px 50px 8px rgba(164,115,24,0.72);
 }
 
 /***************** Block 4***************/
