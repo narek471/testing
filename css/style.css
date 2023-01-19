@@ -108,6 +108,11 @@ body {
     box-shadow: 1px -1px 50px 4px rgba(0, 53, 129, 0.75);
 }
 
+.block1__btn:hover {
+    -webkit-box-shadow: 1px -1px 50px 4px rgba(0, 53, 129, 0.75);
+    box-shadow: 1px -1px 50px 4px rgba(0, 53, 129, 0.75);
+}
+
 /************** Block2 **************/
 
 .block2 {
@@ -268,6 +273,11 @@ input[type=number] {
     box-shadow: 1px -1px 50px 4px rgb(0, 53, 129);
 }
 
+.block2__btn:hover {
+    -webkit-box-shadow: 1px -1px 50px 4px rgb(0, 53, 129);
+    box-shadow: 1px -1px 50px 4px rgb(0, 53, 129);
+}
+
 /************** Block3 **************/
 
 .block3 {
@@ -421,6 +431,9 @@ input[type=number] {
     width: 273px;
     font-size: 15px;
     border-radius: 4px;
+}
+
+.block3__btn:hover {
     -webkit-box-shadow: 1px -1px 50px 4px rgb(0, 53, 129);
     box-shadow: 1px -1px 50px 4px rgb(0, 53, 129);
 }
@@ -484,6 +497,9 @@ input[type=number] {
 .block4__btn:active {
     font-size: 15px;
     border-radius: 4px;
+    width: 275px;
+}
+.block4__btn:hover {
     -webkit-box-shadow: 1px -1px 50px 8px rgba(164,115,24,0.72);
     box-shadow: 1px -1px 50px 8px rgba(164,115,24,0.72);
 }
@@ -561,6 +577,10 @@ input[type=number] {
 .block5__btn:active {
     font-size: 15px;
     border-radius: 4px;
+    width: 275px;
+}
+
+.block5__btn:hover {
     -webkit-box-shadow: 1px -1px 50px 5px rgba(164,115,24,0.52);
     box-shadow: 1px -1px 50px 5px rgba(164,115,24,0.52);
 }
