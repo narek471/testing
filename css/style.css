@@ -266,11 +266,9 @@ input[type=number] {
 }
 
 .block2__btn:active {
-    width: 273px;
     font-size: 15px;
+    margin-right: 8px;
     border-radius: 4px;
-    -webkit-box-shadow: 1px -1px 50px 4px rgb(0, 53, 129);
-    box-shadow: 1px -1px 50px 4px rgb(0, 53, 129);
 }
 
 .block2__btn:hover {
@@ -428,14 +426,14 @@ input[type=number] {
 }
 
 .block3__btn:active {
-    width: 273px;
+    margin-right: 8px;
     font-size: 15px;
     border-radius: 4px;
 }
 
 .block3__btn:hover {
-    -webkit-box-shadow: 1px -1px 50px 4px rgb(0, 53, 129);
-    box-shadow: 1px -1px 50px 4px rgb(0, 53, 129);
+    -webkit-box-shadow: 1px -1px 50px 7px rgb(0, 53, 129);
+    box-shadow: 1px -1px 50px 7px rgb(0, 53, 129);
 }
 
 /***************** Block 4***************/
