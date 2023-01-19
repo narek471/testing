@@ -99,6 +99,15 @@ body {
     border: 0;
 }
 
+.block1__btn:active {
+    width: 280px;
+    margin-left: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px -1px 50px 4px rgba(0, 53, 129, 0.75);
+    box-shadow: 1px -1px 50px 4px rgba(0, 53, 129, 0.75);
+}
+
 /************** Block2 **************/
 
 .block2 {
@@ -250,6 +259,14 @@ input[type=number] {
     border: 0;
 }
 
+.block2__btn:active {
+    width: 270px;
+    font-size: 15px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px -1px 50px 4px rgb(0, 53, 129);
+    box-shadow: 1px -1px 50px 4px rgb(0, 53, 129);
+}
+
 /************** Block3 **************/
 
 .block3 {
@@ -398,6 +415,14 @@ input[type=number] {
     border: 0;
 }
 
+.block3__btn:active {
+    width: 270px;
+    font-size: 15px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px -1px 50px 8px rgba(164,115,24,0.72);
+    box-shadow: 1px -1px 50px 8px rgba(164,115,24,0.72);
+}
+
 /***************** Block 4***************/
 
 .block4 {
@@ -451,6 +476,14 @@ input[type=number] {
     padding: 23px;
     cursor: pointer;
     border: 0;
+}
+
+.block4__btn:active {
+    width: 270px;
+    font-size: 15px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px -1px 50px 8px rgba(164,115,24,0.72);
+    box-shadow: 1px -1px 50px 8px rgba(164,115,24,0.72);
 }
 
 .block4__img {
@@ -520,6 +553,14 @@ input[type=number] {
     padding: 23px;
     cursor: pointer;
     border: 0;
+}
+
+.block5__btn:active {
+    width: 270px;
+    font-size: 15px;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px -1px 50px 5px rgba(164,115,24,0.52);
+    box-shadow: 1px -1px 50px 5px rgba(164,115,24,0.52);
 }
 
 .block5__img {
@@ -594,6 +635,10 @@ input[type=number] {
 
     .block1__left {
         margin-top: 20px;
+    }
+
+    .block1__btn {
+        width: 320px;
     }
 
     /*********** Block2 **********/
@@ -706,10 +751,18 @@ input[type=number] {
         width: 320px;
     }
 
+    .block1__btn:active {
+        width: 310px;
+    }
+
     /*********** Block 2 **********/
     .block2__title,
     .block2__text {
         width: 320px;
+    }
+
+    .block2__btn:active {
+        width: 310px;
     }
 
     /*********** Block 3 **********/
@@ -726,6 +779,10 @@ input[type=number] {
 
     .block3__text {
         margin-bottom: 60px;
+    }
+
+    .block3__btn:active {
+        width: 310px;
     }
 
     /*********** Block 4 **********/
@@ -746,6 +803,10 @@ input[type=number] {
         object-fit: cover;
     }
 
+    .block4__btn:active {
+        width: 310px;
+    }
+
     /*********** Block 5 **********/
     .block5__row {
         padding-bottom: 27px;
@@ -758,5 +819,9 @@ input[type=number] {
 
     #br__hide {
         display: block;
+    }
+
+    .block5__btn:active {
+        width: 310px;
     }
 }
