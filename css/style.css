@@ -97,13 +97,13 @@ body {
     cursor: pointer;
     margin-top: 40px;
     border: 0;
+    transition: all 0.1s;
 }
 
 .block1__btn:active {
-    width: 280px;
     margin-left: 5px;
     font-size: 15px;
-    border-radius: 5px;
+    border-radius: 4px;
     -webkit-box-shadow: 1px -1px 50px 4px rgba(0, 53, 129, 0.75);
     box-shadow: 1px -1px 50px 4px rgba(0, 53, 129, 0.75);
 }
@@ -257,12 +257,12 @@ input[type=number] {
     padding: 23px 70px;
     cursor: pointer;
     border: 0;
+    transition: all 0.1s;
 }
 
 .block2__btn:active {
-    width: 270px;
     font-size: 15px;
-    border-radius: 5px;
+    border-radius: 4px;
     -webkit-box-shadow: 1px -1px 50px 4px rgb(0, 53, 129);
     box-shadow: 1px -1px 50px 4px rgb(0, 53, 129);
 }
@@ -413,12 +413,12 @@ input[type=number] {
     padding: 23px 70px;
     cursor: pointer;
     border: 0;
+    transition: all 0.1s;
 }
 
 .block3__btn:active {
-    width: 270px;
     font-size: 15px;
-    border-radius: 5px;
+    border-radius: 4px;
     -webkit-box-shadow: 1px -1px 50px 8px rgba(164,115,24,0.72);
     box-shadow: 1px -1px 50px 8px rgba(164,115,24,0.72);
 }
@@ -476,12 +476,12 @@ input[type=number] {
     padding: 23px;
     cursor: pointer;
     border: 0;
+    transition: all 0.1s;
 }
 
 .block4__btn:active {
-    width: 270px;
     font-size: 15px;
-    border-radius: 5px;
+    border-radius: 4px;
     -webkit-box-shadow: 1px -1px 50px 8px rgba(164,115,24,0.72);
     box-shadow: 1px -1px 50px 8px rgba(164,115,24,0.72);
 }
@@ -553,12 +553,12 @@ input[type=number] {
     padding: 23px;
     cursor: pointer;
     border: 0;
+    transition: all 0.1s;
 }
 
 .block5__btn:active {
-    width: 270px;
     font-size: 15px;
-    border-radius: 5px;
+    border-radius: 4px;
     -webkit-box-shadow: 1px -1px 50px 5px rgba(164,115,24,0.52);
     box-shadow: 1px -1px 50px 5px rgba(164,115,24,0.52);
 }
