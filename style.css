@@ -426,12 +426,6 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     padding-bottom: 110px;
 }
 
-.main__bg {
-    position: absolute;
-    right: 0;
-    top: 300px;
-}
-
 .podcast {
     width: 100%;
     position: relative;
