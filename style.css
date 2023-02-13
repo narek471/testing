@@ -504,6 +504,10 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     top: 0;
 }
 
+.podcast__mobile__img {
+    display: none;
+}
+
 .calc__img {
     position: absolute;
     right: 70px;
@@ -924,6 +928,10 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
         width: 110%;
     }
 
+    .podcast__link {
+        width: 760px;
+    }
+
     .footer__main {
         flex-direction: column;
         align-items: center;
@@ -940,6 +948,76 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
     #footer__right {
         margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 841px) {
+
+    .page__title {
+        width: 430px;
+        font-size: 24px;
+        line-height: 27px;
+        margin-top: 40px;
+    }
+
+    .podcast__link {
+        width: 320px;
+        height: 380px;
+    }
+
+    .podcast__img {
+        display: none;
+    }
+
+    .podcast__mobile__img {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .podcast__subtitle {
+        font-size: 8px;
+    }
+
+    .podcast__title {
+        font-size: 18px;
+    }
+
+    .podcast__text {
+        width: 260px;
+        font-size: 10px;
+        line-height: 130%;
+    }
+
+    .calc__img {
+        right: 0;
+        left: 0;
+        margin: auto;
+        width: 180px;
+        top: unset;
+        bottom: 0;
+    }
+
+    .calc__capl1__img {
+        top: 185px;
+        right: 200px;
+    }
+
+    .calc__capl2__img {
+        top: 200px;
+        right: 10px;
+    }
+
+    .rak__img {
+        right: 0;
+        left: 0;
+        margin: auto;
+        bottom: 0;
+        top: unset;
+        width: 240px;
     }
 }
 
@@ -1034,6 +1112,15 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
 
     .header__top__right {
         width: 130px;
+    }
+
+    .podcast__row {
+        padding-left: 5px;
+    }
+
+    .page__title {
+        width: 330px;
+        font-size: 22px;
     }
 }
 
