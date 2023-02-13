@@ -1103,7 +1103,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     .header__bottom__text,
     .header__bottom__text > a,
     .header__bottom__link {
-        font-size: 11px;
+        font-size: 15px;
     }
 
     .header__logo__link {
