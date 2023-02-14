@@ -533,11 +533,19 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     right: 5px;
 }
 
-.bottom__number {
+.podcast__bottom__line {
+    width: 90%;
+    position: relative;
+    border-top: 1px solid rgba(63, 73, 73, 0.25);;
+    margin-top: 80px;
+}
+
+.podcast__bottom__number {
+    font-weight: 500;
     font-size: 16px;
-    font-weight: 300;
-    color: #333333;
-    margin-top: 120px;
+    line-height: 19px;
+    margin-top: 30px;
+    color: rgba(63, 73, 73, 0.5);
 }
 
 /*************** Footer ***************/
@@ -1029,7 +1037,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     }
 
     .podcast__title {
-        width: 300px;
+        width: 290px;
         line-height: 20px;
     }
 }
