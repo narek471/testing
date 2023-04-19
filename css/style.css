@@ -79,7 +79,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .banner__top {
@@ -126,6 +126,13 @@ body {
     font-size: 28px;
     color: var(--title-color);
     border-bottom: 1px solid var(--title-color);
+}
+
+.banner__logo {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .gallery {
@@ -187,7 +194,7 @@ body {
     }
 
     .banner__title {
-        margin-top: 0;
+        margin-top: 20px;
         font-size: 32px;
         width: 100%;
     }
@@ -213,6 +220,14 @@ body {
         font-size: 24px;
         line-height: 1.2;
         text-align: left;
+    }
+
+    .banner__logo {
+        width: 100%;
+    }
+
+    .gallery__row {
+        margin-top: 0;
     }
 
     .gallery__cart {
