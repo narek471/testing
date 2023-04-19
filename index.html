@@ -5,278 +5,73 @@
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Уро-Инфо – портал об урологических симптомах и заболеваниях</title>
-        <link rel="stylesheet" href="style.css">
+        <meta name="description" content="Катание на танках. Цена. Где дешевле покататься. Рейтинг стоимости. Сравнение стоимости катания на танках в Подмосковье, в России  и в других странах.">
+        <link rel="icon" type="image/x-icon" href="img/apple-touch-icon.png">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Катание на танках. Цена. Рейтинг стоимости.</title>
     </head>
     <body>
         <div class="wrapper">
-            <header class="header">
-                <div class="container">
-                    <div class="header__row">
-                        <div class="header__top">
-                            <div class="header__top__left">
-                                <nav class="navbar__mobile">
-                                    <div class="container__mobile">
-                                        <div class="navbar__wrap__mobile">
-                                            <div class="hamb__mobile">
-                                                <div class="hamb__field__mobile" id="hamb">
-                                                    <span class="bar__mobile"></span> <span class="bar__mobile"></span>
-                                                    <span class="bar__mobile"></span>
-                                                </div>
-                                            </div>
-                                            <ul class="menu__mobile" id="menu">
-                                                <li onclick="myFunction1()"><a href="javascript:void(0)" id="dropdown__open1">Заболевания</a> <img src="img/dropdown.svg" id="img1" alt=""></li>
-                                                <ul style="display: none;" id="dropdown__mobile1">
-                                                    <li><a href="https://uro-info.ru/zabolevanie/gmp/">ГМП</a></li>
-                                                    <li><a href="https://uro-info.ru/zabolevanie/cistit/">Цистит</a></li>
-                                                    <li><a href="https://uro-info.ru/zabolevanie/prostatit/">Простатит</a></li>
-                                                    <li><a href="https://uro-info.ru/zabolevanie/adenoma/">Аденома простаты</a></li>
-                                                    <li><a href="https://uro-info.ru/zabolevanie/rpz/">Рак предстательной железы</a></li>
-                                                    <li><a href="https://uro-info.ru/articles/opukhol-mochevogo-puzyrya/">Рак мочевого пузыря</a></li>
-                                                </ul>
-                                                <li><a href="https://uro-info.ru/articles/">Статьи</a></li>
-                                                <li onclick="myFunction2()"><a href="javascript:void(0)" id="dropdown__open2">Проверьте себя</a> <img src="img/dropdown.svg" id="img2" alt=""></li>
-                                                <ul style="display: none;" id="dropdown__mobile2">
-                                                    <li><a href="https://uro-info.ru/tests/mezhdunarodnaya-sistema-summarnoy-otsenki-zabolevaniy-predstatelnoy-zhelezy-v-ballakh-ipss-/">Международная система суммарной оценки заболеваний предстательной железы в баллах (IPSS)</a></li>
-                                                    <li><a href="https://uro-info.ru/tests/oprosnik-dlya-otsenki-simptomov-giperaktivnogo-mochevogo-puzyrya/">Опросник для оценки симптомов гиперактивного мочевого пузыря</a></li>
-                                                    <li><a href="https://uro-info.ru/tests/ekspress-diagnostika-tipov-nederzhaniya-mochi/">Экспресс-диагностика типов недержания мочи</a></li>
-                                                    <li><a href="https://uro-info.ru/diary/">Дневник мочеиспускания</a></li>
-                                                </ul>
-                                                <li><a href="https://uro-info.ru/video/">Видео</a></li>
-                                                <li><a href="https://uro-info.ru/istorii-pacientov/">Истории пациентов</a></li>
-                                                <li><a href="https://uro-info.ru/voprosy-urologu/">Вопросы урологу</a></li>
-                                                <li onclick="myFunction4()"><a href="javascript:void(0)" id="dropdown__open4">Путь пациента</a> <img src="img/dropdown.svg" id="img4" alt=""></li>
-                                                <ul style="display: none;" id="dropdown__mobile4">
-                                                    <li><a href="https://uro-info.ru/patient-journey/gmp/">ГМП</a></li>
-                                                    <li><a href="https://uro-info.ru/patient-journey/rmp/">РМП</a></li>
-                                                </ul>
-                                                <li onclick="myFunction3()"><a href="javascript:void(0)" id="dropdown__open3"> Карты </a> <img src="img/dropdown.svg" id="img3" alt=""></li>
-                                                <ul style="display: none;" id="dropdown__mobile3">
-                                                    <li><a href="https://uro-info.ru/map/">Карты туалетов</a></li>
-                                                    <li><a href="https://uro-info.ru/map-clinics/">Карта поликлиник</a></li>
-                                                </ul>
-                                                <li><a href="https://uro-info.ru/specTest/">Раздел для специалистов</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </nav>
-                                <div class="popup__mobile" id="popup"></div>
-                                <a href="https://uro-info.ru/" class="header__logo__link"><img src="img/logo.svg" alt="" class="header__top__logo"></a>
-                                <p class="header__top__text">Портал об урологических <br>
-                                    симптомах <br id="header__br"> и заболеваниях</p>
-                            </div>
-                            <div class="header__top__right">
-                                <p class="header__right__text">
-                                    18+
-                                </p>
-                                <div class="header__search__mobile">
-                                    <button onclick="getSearch()" class="header__button__mobile">
-                                        <img src="img/search.png" alt="">
-                                    </button>
-                                </div>
-                                <form action="/search/" method="get" class="header__search">
-                                    <input name="q" type="search" >
-                                    <button type="submit" class="header__button">
-                                        <img src="img/search.png" alt="">
-                                    </button>
-                                </form>
-                                <a href="/" class="header__right__star">
-                                    <img src="img/star.svg" alt="">
-                                    <p class="header__star__text">
-                                        Избранное
-                                    </p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="header__menu" id="fixed__menu">
-                            <nav class="nav">
-                                <div class="container__hide">
-                                <ul class="nav__list">
-                                    <li class="nav__list__item">
-                                        <a href="" class="nav__list__link">
-                                            <img src="img/menu1.svg" class="menu__list__img" alt="">
-                                            <p class="menu__item">Заболевания</p>
-                                        </a>
-                                        <div class="menu__dropdown__first">
-                                            <img src="img/dropdown.svg" alt="" class="dropdown__img">
-                                            <ul class="menu__dropdown__content">
-                                                <li class="menu__dropdown__item">
-                                                    <a href="https://uro-info.ru/zabolevanie/gmp/" class="menu__dropdown__link"> <img src="img/menu1_3.png" alt="" class="dropdown__menu__img"> <p>ГМП</p></a>
-                                                </li>
-                                                <li class="menu__dropdown__item">
-                                                    <a href="https://uro-info.ru/zabolevanie/cistit/" class="menu__dropdown__link"> <img src="img/menu1_2.png" alt="" class="dropdown__menu__img"> <p>Цистит</p></a>
-                                                </li>
-                                                <li class="menu__dropdown__item">
-                                                    <a href="https://uro-info.ru/zabolevanie/prostatit/" class="menu__dropdown__link"> <img src="img/menu1_1.png" alt="" class="dropdown__menu__img"> <p>Простатит</p></a>
-                                                </li>
-                                                <li class="menu__dropdown__item">
-                                                    <a href="https://uro-info.ru/zabolevanie/adenoma/" class="menu__dropdown__link"> <img src="img/menu1_4.png" alt="" class="dropdown__menu__img"> <p>Аденома простаты</p></a>
-                                                </li>
-                                                <li class="menu__dropdown__item">
-                                                    <a href="https://uro-info.ru/zabolevanie/rpz/" class="menu__dropdown__link"> <img src="img/menu1_5.png" alt="" class="dropdown__menu__img"> <p>Рак предстательной железы</p></a>
-                                                </li>
-                                                <li class="menu__dropdown__item">
-                                                    <a href="https://uro-info.ru/articles/opukhol-mochevogo-puzyrya/" class="menu__dropdown__link"> <img src="img/menu1_4.png" alt="" class="dropdown__menu__img"> <p>Рак мочевого пузыря</p></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__list__item">
-                                        <a href="https://uro-info.ru/articles/" class="nav__list__link">
-                                            <img src="img/menu2.svg" class="menu__list__img" alt="">
-                                            <p class="menu__item">Статьи</p>
-                                        </a>
-                                    </li>
-                                    <li class="nav__list__item">
-                                        <a href="" class="nav__list__link">
-                                            <img src="img/menu3.svg" class="menu__list__img" alt="">
-                                            <p class="menu__item">Проверьте себя</p>
-                                        </a>
-                                        <div class="menu__dropdown__first">
-                                            <img src="img/dropdown.svg" alt="" class="dropdown__img">
-                                            <ul id="dropdown2" class="menu__dropdown__content">
-                                                <li class="menu__dropdown__item">
-                                                    <a href="https://uro-info.ru/tests/mezhdunarodnaya-sistema-summarnoy-otsenki-zabolevaniy-predstatelnoy-zhelezy-v-ballakh-ipss-/" class="menu__dropdown__link"> <img src="img/menu2_1.png" alt="" class="dropdown__menu__img2"> <p id="text2">Международная система суммарной оценки заболеваний предстательной железы в баллах (IPSS) </p></a>
-                                                </li>
-                                                <li class="menu__dropdown__item">
-                                                    <a href="https://uro-info.ru/tests/oprosnik-dlya-otsenki-simptomov-giperaktivnogo-mochevogo-puzyrya/" class="menu__dropdown__link"> <img src="img/menu2_2.png" alt="" class="dropdown__menu__img2"> <p id="text3">Опросник для оценки симптомов гиперактивного мочевого пузыря </p></a>
-                                                </li>
-                                                <li class="menu__dropdown__item">
-                                                    <a href="https://uro-info.ru/tests/ekspress-diagnostika-tipov-nederzhaniya-mochi/" class="menu__dropdown__link"> <img src="img/menu2_3.png" alt="" class="dropdown__menu__img3"> <p id="text4">Экспресс-диагностика типов недержания мочи </p></a>
-                                                </li>
-                                                <li class="menu__dropdown__item">
-                                                    <a href="https://uro-info.ru/diary/" class="menu__dropdown__link"> <img src="img/menu2_4.png" alt="" class="dropdown__menu__img2"> <p id="text5">Дневник мочеиспускания </p></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__list__item">
-                                        <a href="https://uro-info.ru/video/" class="nav__list__link">
-                                            <img src="img/menu4.svg" class="menu__list__img" alt="">
-                                            <p class="menu__item">Видео</p>
-                                        </a>
-                                    </li>
-                                    <li class="nav__list__item">
-                                        <a href="https://uro-info.ru/istorii-pacientov/" class="nav__list__link">
-                                            <img src="img/menu5.svg" class="menu__list__img" alt="">
-                                            <p class="menu__item">Истории <br> пациентов</p>
-                                        </a>
-                                    </li>
-                                    <li class="nav__list__item">
-                                        <a href="https://uro-info.ru/voprosy-urologu/" class="nav__list__link">
-                                            <img src="img/menu6.svg" class="menu__list__img" alt="">
-                                            <p class="menu__item">Вопросы <br> урологу</p>
-                                        </a>
-                                    </li>
-                                    <li class="nav__list__item">
-                                        <a href="" class="nav__list__link">
-                                            <img src="img/menu7.svg" class="menu__list__img" alt="">
-                                            <p class="menu__item">Путь <br> пациента</p>
-                                        </a>
-                                        <div class="menu__dropdown__first">
-                                            <img src="img/dropdown.svg" alt="" class="dropdown__img" id="dropdown__img">
-                                            <ul id="dropdown3" class="menu__dropdown__content">
-                                                <li class="menu__dropdown__item">
-                                                    <a href="https://uro-info.ru/patient-journey/gmp/" class="menu__dropdown__link"> <img src="img/menu1_3.png" alt="" class="dropdown__menu__img2"> <p id="text8"> ГМП </p></a>
-                                                </li>
-                                                <li class="menu__dropdown__item">
-                                                    <a href="https://uro-info.ru/patient-journey/rmp/" class="menu__dropdown__link"> <img src="img/menu1_4.png" alt="" class="dropdown__menu__img2"> <p id="text9"> РМП </p></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__list__item">
-                                        <a href="" class="nav__list__link">
-                                            <img src="img/menu9.png" id="menu9" class="menu__list__img" alt="">
-                                            <p class="menu__item">Карты</p>
-                                        </a>
-                                        <div class="menu__dropdown__first">
-                                            <img src="img/dropdown.svg" alt="" class="dropdown__img">
-                                            <ul class="menu__dropdown__content">
-                                                <li class="menu__dropdown__item">
-                                                    <a href="https://uro-info.ru/map/" class="menu__dropdown__link"><img src="img/menu3_1.png" alt="" class="dropdown__menu__img4"> <p id="text6">Карта туалетов </p></a>
-                                                </li>
-                                                <li class="menu__dropdown__item">
-                                                    <a href="https://uro-info.ru/map-clinics/" class="menu__dropdown__link"> <img src="img/menu3_2.png" alt="" class="dropdown__menu__img4"> <p id="text7">Карта поликлиник </p></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <li class="nav__list__item">
-                                        <a href="https://uro-info.ru/specTest/" class="nav__list__link">
-                                            <img src="img/menu8.svg" class="menu__list__img" alt="">
-                                            <p class="menu__item">Раздел для <br> специалистов</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                                </div>
-                            </nav>
-                        </div>
-                        <div class="header__bottom" id="header__bottom">
-                            <a href="/" class="header__bottom__link">Главная</a>
-                            <p class="header__bottom__text"> > Раздел для специалистов</p>
-                        </div>
-                    </div>
-                </div>
-            </header>
             <main class="main">
-                <section class="podcast">
+                <section class="banner">
                     <div class="container">
-                        <div class="podcast__row">
-                            <h1 class="page__title">
-                                Уро-инфо - информационный раздел для специалистов здравоохранения
-                            </h1>
-                            <a href="" class="podcast__link">
-                                <p class="podcast__subtitle">
-                                    NEW!
-                                </p>
-                                <h2 class="podcast__title">
-                                    ГМП подкасты
-                                </h2>
-                                <p class="podcast__text">
-                                    Серия подкастов «Срочные вопросы» - это первая в своем роде серия, посвящённая ГМП и охватывающая ряд ключевых тем с ведущими экспертами по различным дисциплинам.
-                                </p>
-                                <img src="img/podkast_img.svg" class="podcast__img" alt="">
-                                <img src="img/podkast_mobile_img.svg" class="podcast__mobile__img" alt="">
-                            </a>
+                        <div class="banner__row">
+                            <div class="banner__top">
+                                <div class="banner__left">
+                                    <h1 class="banner__title">
+                                        Катание на танках
+                                    </h1>
+                                    <h3 class="banner__subtitle">
+                                        Катание на танках. Цена.  Рейтинг стоимости. Выбор нейросети.
+                                    </h3>
+                                    <p class="banner__text">
+                                        Все картинки к данной статье  нарисованы нейросетью.
+                                        Нажмите здесь, что бы посмотреть больше картинок
+                                    </p>
+                                    <a href="https://www.secure.instagram.com/cyberbeautygallery/?hl=fb-ha" target="_blank" class="banner__button button">
+                                        ПОСМОТРЕТЬ
+                                    </a>
+                                </div>
+                                <div class="banner__right">
+                                    <img src="img/1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="banner__bottom">
+                                <h3 class="banner__bottom__title">
+                                    В разных уголках мира люди находят разные способы для получения ярких впечатлений. Одним из самых интересных и экстремальных является катание на танках. Если вы готовы попробовать что-то новое и уникальное, то обратите внимание на результаты анализа, представленные в конце этой статьи.
+                                </h3>
+                            </div>
                         </div>
                     </div>
                 </section>
-                <section class="podcast">
+                <section class="gallery">
                     <div class="container">
-                        <div class="podcast__row">
-                            <a href="" class="podcast__link">
-                                <p class="podcast__subtitle">
-                                    NEW!
+                        <div class="gallery__row">
+                            <div class="gallery__cart">
+                                <h4 class="gallery__cart__title">
+                                    Россия
+                                </h4>
+                                <img src="img/2.jpg" alt="" class="gallery__cart__img">
+                                <p class="gallery__cart__text">
+                                    Итак, начнем с России. Катание на танках в Подмосковье организует  компания КубинкаТур, одна из ведущих   компаний на этом рынке, с большим опытом и разнообразием бронетехники.   У них даже можно покататься  на  танке Т-34, легендарным танком времен Второй мировой войны. Т-34 был разработан в 1940 году и стал одним из наиболее массовых танков в истории. У КубинкаТур  катание на танке доступно за разумную цену и является популярным видом развлечения не только для российских граждан, но и для иностранных  туристов, посещающих Москву и Подмосковье.
                                 </p>
-                                <h2 class="podcast__title">
-                                    Калькулятор антихолинергической нагрузки
-                                </h2>
-                                <p class="podcast__text">
-                                    Калькулятор для рассчета антихолинергической нагрузки. Сравнивайте препараты и рассчитывайте общий антихолинергический эффект всего профиля лекарств пациента.
+                            </div>
+                            <div class="gallery__cart">
+                                <h4 class="gallery__cart__title">
+                                    Беларусь
+                                </h4>
+                                <img src="img/3.jpg" alt="" class="gallery__cart__img">
+                                <p class="gallery__cart__text">
+                                    В Белоруссии катание на танке доступно на историко-культурном комплексе «Линия Сталина»  и Танковом полигоне "Ждановичи". Вы сможете покататься  на танках, таких как Т-34, Т-55,ПТ-76, Т-44,  БТР-80.     БТР-80 - это бронетранспортер, который был разработан в Советском Союзе в 1980-х годах. Это транспортное средство может перевозить до 10 человек и имеет высокую проходимость по бездорожью.
                                 </p>
-                                <img src="img/calc_img.svg" class="calc__img" alt="">
-                                <img src="img/capl1_img.svg" alt="" class="calc__capl1__img">
-                                <img src="img/capl2_img.svg" alt="" class="calc__capl2__img">
-                            </a>
-                        </div>
-                    </div>
-                </section>
-                <section class="podcast">
-                    <div class="container">
-                        <div class="podcast__row">
-                            <a href="https://uro-info.ru/specials/rak-mochevogo-puzyrya/" class="podcast__link">
-                                <h2 class="podcast__title">
-                                    Рак мочевого пузыря
-                                </h2>
-                                <p class="podcast__text">
-                                    Будущее терапии метастатического уротелиального рака. Уротелиальный рак - это злокачественное новообразование, которое может развиваться из клеток уротелия во всех отделах мочевыводящего тракта. Около 90-95% случаев уротелиальной карциномы развивается в мочевом пузыре.
-                                </p>
-                                <img src="img/rak_img.svg" class="rak__img" alt="">
-                            </a>
-                            <div class="podcast__bottom__line">
-                                <p class="podcast__bottom__number">
-                                    MAT-RU-NON-2023-00002-FEB-2023
+                            </div>
+                            <div class="gallery__cart">
+                                <h4 class="gallery__cart__title">
+                                    Польша
+                                </h4>
+                                <img src="img/4.jpg" alt="" class="gallery__cart__img">
+                                <p class="gallery__cart__text">
+                                    В Польше катание на танке доступно в Tank Driving Poland, PanzerFun и Tank Driving Poland. Они предлагают катание на современных моделях танков, таких как T-55, T-72 и Leopard 1. T-55 - это советский танк среднего класса, который был разработан в 1950-х годах. T-72 - это советский танк, который был разработан в 1970-х годах. Leopard 1 - это немецкий танк, который был разработан в 1960-х годах. Катание на танке в Польше - это возможность узнать больше о технике и истории военных конфликтов.
                                 </p>
                             </div>
                         </div>
@@ -284,8 +79,5 @@
                 </section>
             </main>
         </div>
-        <script src="js/jquery-3.6.1.min.js"></script>
-        <script src="js/app.js"></script>
-        <script src="js/mobile.js"></script>
     </body>
 </html>
