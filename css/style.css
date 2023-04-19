@@ -369,6 +369,10 @@ body {
         padding-left: 30px;
     }
 
+    .desc__rating__item {
+        margin-bottom: 8px;
+    }
+
     .last__body {
         width: 100%;
         flex-direction: column-reverse;
