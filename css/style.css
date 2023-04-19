@@ -125,6 +125,7 @@ body {
     margin-top: 50px;
     font-size: 28px;
     color: var(--title-color);
+    border-bottom: 1px solid var(--title-color);
 }
 
 .gallery {
@@ -148,6 +149,8 @@ body {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--title-color);
 }
 
 .gallery__cart__title {
@@ -179,12 +182,14 @@ body {
     }
 
     .banner__left {
+        align-items: center;
         padding: 0;
     }
 
     .banner__title {
         margin-top: 0;
         font-size: 32px;
+        width: 100%;
     }
 
     .banner__subtitle {
@@ -201,12 +206,13 @@ body {
     }
 
     .banner__bottom {
-        padding: 10px;
+        padding: 10px 10px 30px 10px;
     }
 
     .banner__bottom__title {
         font-size: 24px;
         line-height: 1.2;
+        text-align: left;
     }
 
     .gallery__cart {
