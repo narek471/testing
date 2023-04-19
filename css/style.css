@@ -167,3 +167,45 @@ body {
     font-size: 18px;
     padding: 5px 10px;
 }
+
+@media only screen and (max-width: 430px) {
+
+    .banner__row {
+        margin-top: 40px;
+    }
+
+    .banner__top {
+        flex-direction: column;
+    }
+
+    .banner__left {
+        padding: 0;
+    }
+
+    .banner__title {
+        margin-top: 0;
+        font-size: 32px;
+    }
+
+    .banner__subtitle {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .banner__button {
+        margin-bottom: 20px;
+    }
+
+    .banner__right > img {
+        width: 100%;
+    }
+
+    .banner__bottom {
+        padding: 10px;
+    }
+
+    .banner__bottom__title {
+        font-size: 24px;
+        line-height: 1.2;
+    }
+}
