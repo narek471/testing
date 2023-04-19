@@ -157,6 +157,7 @@ body {
     overflow: hidden;
     padding-bottom: 20px;
     border-bottom: 1px solid var(--title-color);
+    margin-bottom: 40px;
 }
 
 .gallery__cart__title {
@@ -213,6 +214,7 @@ body {
 
     .banner__bottom {
         padding: 10px 10px 30px 10px;
+        margin-bottom: 40px;
     }
 
     .banner__bottom__title {
@@ -228,9 +230,5 @@ body {
 
     .gallery__row {
         margin-top: 0;
-    }
-
-    .gallery__cart {
-        margin-top: 30px;
     }
 }
