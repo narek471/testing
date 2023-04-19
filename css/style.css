@@ -180,7 +180,7 @@ body {
 @media only screen and (max-width: 430px) {
 
     .banner__row {
-        margin-top: 40px;
+        margin-top: 0;
     }
 
     .banner__top {
@@ -222,7 +222,8 @@ body {
     }
 
     .banner__logo {
-        width: 100%;
+        width: 110%;
+        height: 260px;
     }
 
     .gallery__row {
