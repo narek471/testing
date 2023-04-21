@@ -364,6 +364,9 @@ body {
 
     .desc__rating {
         margin-left: 0;
+    }
+
+    .desc__rating__list {
         padding-left: 30px;
     }
 
