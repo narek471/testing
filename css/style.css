@@ -389,4 +389,8 @@ body {
         width: 100%;
         margin-bottom: 20px;
     }
+
+    .span-nowrap {
+        white-space: nowrap;
+    }
 }
