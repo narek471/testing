@@ -37,6 +37,10 @@ body {
     margin: 0 auto;
 }
 
+:root {
+    --shiftY: 0px;
+}
+
 /*******************************************/
 
 
@@ -46,6 +50,7 @@ body {
 .header {
     width: 100%;
     position: relative;
+    overflow: hidden;
 }
 
 .header__bg {
@@ -58,6 +63,7 @@ body {
     z-index: 1;
     background-size: cover;
     background-position: center;
+    transform: translateY(calc(var(--shiftY) / 30));
 }
 
 .header__bg__img {
@@ -82,6 +88,10 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-top: 40px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header__right {
@@ -93,6 +103,7 @@ body {
 .header__img {
     width: 100%;
     object-fit: contain;
+    transform: translateY(calc(var(--shiftY) / 2.5));
 }
 
 .header__left {
@@ -100,6 +111,7 @@ body {
     display: flex;
     flex-direction: column;
     z-index: 3;
+    transform: translateY(calc(var(--shiftY) / 2));
 }
 
 .header__title {
@@ -979,6 +991,7 @@ body {
     width: 222px;
     height: 340px;
     position: relative;
+    text-decoration: none;
 }
 
 .footer__telegram__img {
