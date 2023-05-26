@@ -2383,6 +2383,10 @@ body {
         border-radius: 40px;
     }
 
+    .map__bg__img1 {
+        display: none;
+    }
+
     .map__bg__img2 {
         width: 70px;
         left: 130px;
@@ -2452,6 +2456,42 @@ body {
 
     .footer__bg__img5 {
         width: 90px;
+    }
+
+}
+
+@media only screen and (max-width: 347px) {
+
+    .contact__top__menu {
+        width: 105%;
+    }
+
+    .contact-right__block {
+        width: 310px;
+    }
+
+    .info__right__title {
+        font-size: 22px;
+    }
+
+    .info-list__item {
+        width: 305px;
+    }
+
+    .clinic__list__item {
+        width: 310px;
+    }
+
+    .footer__bg__img5 {
+        width: 60px;
+    }
+
+    .footer__row {
+        padding: 25px 5px;
+    }
+
+    .footer__bg__img6 {
+        left: 50px;
     }
 
 }
