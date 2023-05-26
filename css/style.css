@@ -1228,6 +1228,7 @@ body {
     line-height: 130%;
     color: #8CBFCC;
     transition: all 0.3s ease;
+    text-align: center;
 }
 
 .home-link:hover {
@@ -1265,7 +1266,7 @@ body {
 
 .promotion__bg__img2 {
     position: absolute;
-    right: -330px;
+    right: -350px;
     top: -265px;
 }
 
@@ -1375,6 +1376,10 @@ body {
     position: absolute;
     right: 170px;
     bottom: 50px;
+}
+
+.promotion__hide__br {
+    display: none;
 }
 
 
@@ -1492,6 +1497,55 @@ body {
 
 
 /**************** Media ************/
+
+@media only screen and (max-width: 1479px) {
+
+    /******** Promotion ********/
+
+    .promotion__row {
+        align-items: center;
+    }
+
+    .promotion__list {
+        width: 90%;
+    }
+
+    .promotion__bg__img1 {
+        right: -10px;
+        width: 400px;
+    }
+
+    .promotion__bg__img2 {
+        right: -320px;
+        top: -190px;
+    }
+
+    .promotion__bg__img5 {
+        right: 30px;
+        top: 200px;
+        width: 420px;
+    }
+
+    .promotion__bg__img6,
+    .promotion__bg__img7 {
+        left: -350px;
+    }
+
+    .home-link__promotion {
+        bottom: -30px;
+    }
+
+    /**************************/
+
+    /********* Profile ********/
+
+    .home-link__profile {
+        position: absolute;
+        left: 20px;
+        bottom: -30px;
+    }
+
+}
 
 
 
@@ -1626,6 +1680,83 @@ body {
     .map__bg__img5 {
         width: 500px;
     }
+
+    /****************************/
+
+    /********** Profile *********/
+
+    .profile {
+        overflow-y: auto;
+        height: unset;
+        min-height: 100vh;
+    }
+
+    .profile__row {
+        padding: 50px 0;
+    }
+
+    .profile__title {
+        font-size: 40px;
+    }
+
+    .profile__title:after {
+        width: unset;
+        font-size: 70px;
+        top: -40px;
+    }
+
+    .profile__bg__img3 {
+        width: 190px;
+    }
+
+    .profile__bg__img8 {
+        width: 90px;
+    }
+
+    /***************************/
+
+    /******** Promotion ********/
+
+    .promotion {
+        overflow-y: auto;
+        height: unset;
+        min-height: 100vh;
+    }
+
+    .promotion__title {
+        font-size: 50px;
+    }
+
+    .promotion__title:after {
+        width: unset;
+        font-size: 68px;
+        top: -40px;
+    }
+
+    /***************************/
+
+    /******** Education ********/
+
+    .education {
+        overflow-y: auto;
+        height: unset;
+        min-height: 100vh;
+    }
+
+    .education__row {
+        padding-bottom: 240px;
+    }
+
+    .education__row__img2 {
+        width: 180px;
+        right: 25px;
+        top: 20px;
+    }
+    .education__row__img1 {
+        left: -15px;
+        top: -400px;
+    }
+
 
 }
 
@@ -1901,6 +2032,88 @@ body {
         width: 400px;
     }
 
+    /***************************/
+
+    /********* Profile *********/
+
+    .profile__bg__img2 {
+        left: -240px;
+        bottom: -140px;
+        width: 336px;
+    }
+
+    .profile__bg__img5 {
+        left: 20px;
+        top: 190px;
+        width: 60px;
+    }
+
+    .profile__bg__img8 {
+        width: 40px;
+    }
+
+    .profile__bg__img9 {
+        left: -120px;
+        bottom: 275px;
+        width: 300px;
+    }
+
+    /*****************************/
+
+    /********* Promotion *********/
+
+    .promotion {
+        padding-bottom: 300px;
+    }
+
+    .promotion__title:after {
+        top: -25px;
+        font-size: 48px;
+    }
+
+    .home-link__promotion {
+        bottom: -130px;
+        right: unset;
+        left: 30px;
+    }
+
+    .promotion__bg__img1 {
+        right: 15px;
+        width: 450px;
+        bottom: -270px;
+    }
+
+    .promotion__bg__img4,
+    .promotion__bg__img5 ,
+    .promotion__bg__img6,
+    .promotion__bg__img7 {
+        display: none;
+    }
+
+    .promotion__list {
+        padding-left: 20px;
+    }
+
+    /*****************************/
+
+    /********* Education *********/
+
+    .education__content {
+        margin-left: 0;
+    }
+
+    .education__row__img1 {
+        left: -30px;
+        top: -400px;
+        width: 350px;
+    }
+
+    .education__row__img2 {
+        width: 140px;
+        right: 25px;
+        top: 100px;
+    }
+
 }
 
 @media only screen and (max-width: 791px) {
@@ -2016,6 +2229,92 @@ body {
 
     .footer__bg__img6 {
         left: -80px;
+    }
+
+    /************************/
+
+    /******** Profile *******/
+
+    .profile__title {
+        font-size: 35px;
+    }
+
+    .profile__title:after {
+        font-size: 50px;
+        top: -30px;
+    }
+
+    .profile__list {
+        width: 540px;
+        padding-left: 50px;
+    }
+
+    .profile__list__item {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .home-link {
+        width: 245px;
+        font-size: 20px;
+    }
+
+    .profile__bg__img10 {
+        right: -20px;
+        top: 60px;
+        width: 300px;
+    }
+
+    .profile__bg__img5,
+    .profile__bg__img6,
+    .profile__bg__img7,
+    .profile__bg__img8,
+    .profile__bg__img9 {
+        display: none;
+    }
+
+    /*****************************/
+
+    /********* Promotion *********/
+
+    .promotion__title {
+        font-size: 35px;
+    }
+
+    .promotion__title:after {
+        width: unset;
+        font-size: 42px;
+        top: -30px;
+    }
+
+    .promotion__list__item {
+        font-size: 18px;
+    }
+
+    /*****************************/
+
+    /********* Education *********/
+
+    .education__bg {
+        bottom: 0;
+    }
+
+    .education__title {
+        font-size: 35px;
+    }
+
+    .education__title:after {
+        width: unset;
+        font-size: 50px;
+        top: -30px;
+    }
+
+    .education__row__img2 {
+        top: 50px;
+    }
+
+    .education__row {
+        padding-bottom: 200px;
     }
 
 }
@@ -2176,6 +2475,71 @@ body {
 
     .footer__bg__img6 {
         left: 70px;
+    }
+
+    /************************/
+
+    /******** Profile *******/
+
+    .profile__bg__img1 {
+        top: -315px;
+    }
+
+    .profile__bg__img2 {
+        display: none;
+    }
+
+    .profile__bg__img3 {
+        width: 160px;
+    }
+
+    /*****************************/
+
+    /********* Promotion *********/
+
+    .promotion__list {
+        padding-left: 0;
+    }
+
+    .promotion__title:after {
+        font-size: 40px;
+        top: -20px;
+    }
+
+    .home-link__promotion {
+        bottom: -40px;
+        right: unset;
+        left: 10px;
+    }
+
+    .promotion__bg__img1 {
+        width: 500px;
+        bottom: -390px;
+    }
+
+    .promotion__bg__img1 {
+
+    }
+
+    /*****************************/
+
+    /********* Education *********/
+
+    .education__row__img1 {
+        display: none;
+    }
+
+    .education__row__img2 {
+        width: 100px;
+        top: 80px;
+    }
+
+}
+
+@media only screen and (max-width: 585px) {
+
+    .promotion__hide__br {
+        display: block;
     }
 
 }
@@ -2456,6 +2820,65 @@ body {
 
     .footer__bg__img5 {
         width: 90px;
+    }
+
+    /***********************/
+
+    /******* Profile *******/
+
+    .profile__title {
+        font-size: 26px;
+    }
+
+    .profile__title:after {
+        font-size: 32px;
+        top: -20px;
+    }
+
+    .profile__list {
+        margin-top: 50px;
+        width: 100%;
+        padding-left: 5px;
+    }
+
+    .profile__list__item {
+        font-size: 14px;
+        text-indent: 0;
+        margin-left: 20px;
+    }
+
+    .profile__list__item:before {
+        left: -20px;
+        top: 5px;
+    }
+
+    .home-link {
+        font-size: 18px;
+    }
+
+    /*****************************/
+
+    /********* Education *********/
+
+    .education__bg {
+        bottom: -5px;
+    }
+
+    .education__title {
+        font-size: 26px;
+    }
+
+    .education__title:after {
+        font-size: 32px;
+        top: -20px;
+    }
+
+    .education__content__text {
+        font-size: 14px;
+    }
+
+    .education__content__link {
+        margin: 30px auto;
     }
 
 }
