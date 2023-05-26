@@ -101,7 +101,10 @@ body {
 
 .header__bg__img {
     width: 100%;
-    height: 100%;
+}
+
+.header__bg__mobile {
+    display: none;
 }
 
 .header__logos {
@@ -110,7 +113,11 @@ body {
     left: 0;
     display: flex;
     flex-direction: column;
-    z-index: 2;
+    z-index: 5;
+}
+
+.header__logos__link {
+    text-decoration: none;
 }
 
 .header__row {
@@ -821,6 +828,11 @@ body {
     width: 100%;
 }
 
+.map__bg__mobileImg1,
+.map__bg__mobileImg2 {
+    display: none;
+}
+
 .map__row {
     width: 100%;
     position: relative;
@@ -1471,6 +1483,977 @@ body {
 
 .education__content__link {
     margin: 50px auto;
+}
+
+
+
+/************************************/
+
+
+
+/**************** Media ************/
+
+
+
+@media only screen and (max-width: 1310px) {
+
+    .header__left {
+        margin-left: 50px;
+    }
+
+    .map__main__right {
+        width: 740px;
+    }
+
+}
+
+@media only screen and (max-width: 1190px) {
+
+    .header__layer__top {
+        width: 300px;
+    }
+
+    .header__layer__bottom {
+        width: 500px;
+    }
+
+    .header__logo__white,
+    .header__logo__black {
+        width: 200px;
+    }
+
+    .header__title {
+        font-size: 40px;
+        line-height: 45px;
+        margin-bottom: 40px;
+    }
+
+    .header__text {
+        font-size: 22px;
+    }
+
+    .contact__main {
+        align-items: center;
+    }
+
+    .contact__top__link {
+        margin-right: 20px;
+    }
+
+    .contact-left__title {
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+
+    .contact-right__img {
+        width: 600px;
+    }
+
+    .contact-right__block {
+        width: 420px;
+    }
+
+    .info__left {
+        width: 420px;
+        margin-left: 20px;
+    }
+
+    .info__right {
+        width: 480px;
+    }
+
+    .info__right__title {
+        margin-top: 0;
+        font-size: 32px;
+    }
+
+    .info__right__block {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .info__bg__img1 {
+        top: -150px;
+    }
+
+    .info__bg__img2 {
+        top: -125px;
+    }
+
+    .info__bg__img3 {
+        top: 280px;
+    }
+
+    .spec__bg__img7 {
+        top: 390px;
+    }
+
+    .spec__bg__img8 {
+        width: 120px;
+        right: 210px;
+        bottom: 0;
+    }
+
+    .clinic__right {
+        width: 600px;
+    }
+
+    .clinic__bg__img3 {
+        width: 520px;
+    }
+
+    .map__main {
+        justify-content: space-around;
+    }
+
+    .map__bg__img3 {
+        width: 500px;
+    }
+
+    .map__bg__img2 {
+        width: 100px;
+    }
+
+    .map__main__left {
+        width: 600px;
+    }
+
+    .map__main__right {
+        width: 610px;
+        height: 500px;
+    }
+
+    .map__bg__img5 {
+        width: 500px;
+    }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+    .header__row {
+        flex-direction: column-reverse;
+    }
+
+    .header__bg {
+        display: none;
+    }
+
+    .header__bg__mobile {
+        position: absolute;
+        width: 1322px;
+        top: -95px;
+        left: -740px;
+        display: block;
+    }
+
+    .header__bg__mobile > img {
+        width: 100%;
+    }
+
+    .header__layer__bottom {
+        display: none;
+    }
+
+    .header__layer__top {
+        width: 350px;
+    }
+
+    .header__right {
+        margin-top: 130px;
+        width: 450px;
+        margin-bottom: 60px;
+    }
+
+    .header__left {
+        margin-bottom: 400px;
+    }
+
+    .contact__row {
+        margin-top: 50px;
+    }
+
+    .contact__top {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .contact__top__link {
+        margin-right: unset;
+        margin-bottom: 30px;
+    }
+
+    .contact__main {
+        flex-direction: column;
+        margin-top: 100px;
+    }
+
+    .contact-right {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-right__img {
+        right: 20px;
+    }
+
+    .contact-right__block {
+        margin-bottom: -260px;
+    }
+
+    .contact__bg__img2 {
+        top: 310px;
+    }
+
+    .contact__bg__img3 {
+        top: 350px;
+        right: 80px;
+        left: unset;
+        margin: unset;
+        width: 150px;
+    }
+
+    .info__row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info__left {
+        width: 75%;
+        margin-top: 100px;
+        height: unset;
+    }
+
+    .info__bg__img3 {
+        top: 280px;
+        left: -130px;
+    }
+
+    .info__right {
+        margin-top: 70px;
+    }
+
+    .clinic__row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clinic__bg__img5 {
+        display: none;
+    }
+
+    .clinic__bg__img4 {
+        right: 10px;
+    }
+
+    .clinic__bg__img2 {
+        left: unset;
+        right: 0;
+    }
+
+    .clinic__bg__img1 {
+        left: -200px;
+    }
+
+    .clinic__bg__img6 {
+        display: none;
+    }
+
+    .clinic__img {
+        width: 100%;
+    }
+
+    .clinic__bg__img3 {
+        width: 440px;
+        top: unset;
+        right: 160px;
+        bottom: -50px;
+    }
+
+    .clinic__bg__img7 {
+        right: -220px;
+        top: 400px;
+    }
+
+    .spec__table > tbody > tr {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .spec__bg__img4 {
+        width: 170px;
+        right: 250px;
+        top: 380px;
+    }
+
+    .spec__bg__img5 {
+        left: 270px;
+        top: 250px;
+    }
+
+    .spec__bg__img6 {
+        right: 100px;
+        top: 440px;
+    }
+
+    .spec__bg__img8 {
+        width: 120px;
+        right: 100px;
+        bottom: 10px;
+    }
+
+    .br-mobile-hide {
+        display: none;
+    }
+
+    .map__row {
+        margin-top: 110px;
+    }
+
+    .map__main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 200px;
+    }
+
+    .map__button {
+        position: absolute;
+        top: 1000px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .map__main__left {
+        margin-left: unset;
+    }
+
+    .map__main__right {
+        margin-left: unset;
+        margin-top: 180px;
+        width: 95%;
+        height: unset;
+    }
+
+    .map__bg__img1 {
+        position: absolute;
+        top: 920px;
+        right: 140px;
+        left: unset;
+    }
+
+    .map__bg__img2 {
+        width: 80px;
+        top: -130px;
+    }
+
+    .map__bg__img3 {
+        left: -140px;
+        top: 70px;
+        width: 510px;
+    }
+
+    .map__bg__img5 {
+        top: 320px;
+    }
+
+    .map__bg__img6 {
+        top: 300px;
+        right: -80px;
+        left: unset;
+    }
+
+    .map__bg__mobileImg1 {
+        display: block;
+        position: absolute;
+        right: -190px;
+        top: 630px;
+    }
+
+    .map__bg__mobileImg2 {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 410px;
+    }
+
+    .footer__info {
+        width: 100%;
+    }
+
+    .footer__bg__img2 {
+        width: 100px;
+    }
+
+    .footer__bg__img4 {
+        left: 70px;
+    }
+
+    .footer__bg__img5 {
+        width: 200px;
+    }
+
+    .footer__bg__img6 {
+        top: unset;
+        left: 260px;
+        bottom: -50px;
+        width: 400px;
+    }
+
+}
+
+@media only screen and (max-width: 791px) {
+
+    .header__right {
+        width: 400px;
+        margin-top: 170px;
+    }
+
+    .header__title {
+        width: 400px;
+    }
+
+    .header__bg__mobile {
+        width: 1130px;
+        top: -110px;
+        left: -610px;
+    }
+
+    .header__left {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .contact-menu__link {
+        font-size: 20px;
+    }
+
+    .contact-left {
+        align-items: center;
+    }
+
+    .contact-left__title {
+        width: 380px;
+        margin-bottom: 90px;
+    }
+
+    .clinic__bg__img2 {
+        width: 130px;
+    }
+
+    .clinic__bg__img1 {
+        top: -100px;
+    }
+
+    .spec__table {
+        padding-left: 60px;
+    }
+
+    .spec__bg__img4 {
+        width: 120px;
+        right: 20px;
+        top: 420px;
+    }
+
+    .map__bg__img2 {
+        left: 300px;
+    }
+
+    .map__bg__img3 {
+        width: 450px;
+    }
+
+    .map__bg__img6 {
+        top: 170px;
+    }
+
+    .footer-info__text,
+    .footer-info__number {
+        font-size: 20px;
+    }
+
+    .footer__list__link {
+        width: 250px;
+        font-size: 20px;
+    }
+
+    .footer__bg__img1 {
+        display: none;
+    }
+
+    .footer__info {
+        padding-bottom: 40px;
+    }
+
+    .footer__content {
+        justify-content: space-between;
+    }
+
+    .footer__list__item {
+        margin-bottom: 30px;
+    }
+
+    .footer__bg__img2 {
+        width: 60px;
+        left: 310px;
+        top: 160px;
+    }
+
+    .footer__bg__img3 {
+        top: 33px;
+    }
+
+    .footer__bg__img4 {
+        position: absolute;
+        left: 140px;
+        top: 215px;
+    }
+
+    .footer__bg__img5 {
+        width: 120px;
+    }
+
+    .footer__bg__img6 {
+        left: -80px;
+    }
+
+}
+
+@media only screen and (max-width: 634px) {
+
+    .header__bg__mobile {
+        width: 930px;
+        top: -105px;
+        left: -490px;
+    }
+
+    .contact__row {
+        padding: 30px 0 0;
+    }
+
+    .contact-menu__item {
+        padding: 0 15px;
+    }
+
+    .contact__top__link {
+        font-size: 20px;
+    }
+
+    .contact-menu__link {
+        font-size: 18px;
+    }
+
+    .contact-left__text {
+        width: 400px;
+    }
+
+    .contact__bg__img1 {
+        width: 250px;
+        top: 215px;
+        left: -145px;
+    }
+
+    .contact__bg__img2 {
+        width: 250px;
+        top: 590px;
+        right: -145px;
+    }
+
+    .info__bg__img3 {
+        top: 0;
+    }
+
+    .info__right__title {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .info-list {
+        padding-left: 40px;
+    }
+
+    .info-list__item {
+        width: 420px;
+    }
+
+    .info__right__block {
+        padding-left: 30px;
+    }
+
+    .info__bg__img5 {
+        position: absolute;
+        bottom: 20px;
+        right: -100px;
+        width: 250px;
+    }
+
+    .clinic__left {
+        width: 400px;
+    }
+
+    .clinic__bg__img1 {
+        width: 250px;
+        top: -90px;
+        left: -140px;
+    }
+
+    .clinic__title {
+        font-size: 25px;
+    }
+
+    .clinic__bg__img3 {
+        width: 350px;
+        right: 120px;
+        bottom: -20px;
+    }
+
+    .clinic__bg__img7 {
+        width: 250px;
+        right: -150px;
+        top: 590px;
+    }
+
+    .spec__title {
+        font-size: 25px;
+    }
+
+    .spec__bg__img1 {
+        width: 250px;
+        right: -145px;
+        top: -160px;
+    }
+
+    .spec__bg__img9 {
+        width: 250px;
+        left: -160px;
+        bottom: -310px;
+    }
+
+    .map__title {
+        font-size: 25px;
+    }
+
+    .map__bg__img4 {
+        width: 250px;
+        right: -130px;
+        top: -200px;
+    }
+
+    .footer__info__block {
+        flex-direction: column;
+    }
+
+    .footer__list__link {
+        width: 210px;
+        font-size: 16px;
+    }
+
+    .footer__telegram {
+        width: unset;
+        height: 240px;
+    }
+
+    .footer__bg__img2 {
+        width: 55px;
+        left: 250px;
+    }
+
+    .footer__bg__img3 {
+        top: 78px;
+        left: 205px;
+    }
+
+    .footer__bg__img4 {
+        display: none;
+    }
+
+    .footer__bg__img5 {
+        right: 10px;
+        top: 10px;
+        left: unset;
+    }
+
+    .footer__bg__img6 {
+        left: 70px;
+    }
+
+}
+
+@media only screen and (max-width: 497px) {
+
+    .header__logo__white, .header__logo__black {
+        width: 150px;
+    }
+
+    .header__bg__mobile {
+        width: 640px;
+        top: -10px;
+        left: -310px;
+    }
+
+    .header__layer__top {
+        width: 240px;
+    }
+
+    .header__row {
+        padding-top: 0;
+    }
+
+    .header__right {
+        width: 290px;
+        margin-top: 130px;
+    }
+
+    .header__title {
+        font-size: 38px;
+    }
+
+    .contact__top__menu {
+        padding: 15px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .contact-menu__item {
+        padding: 0 10px;
+    }
+
+    .contact-menu__link {
+        font-size: 15px;
+    }
+
+    .contact-left__title {
+        font-size: 32px;
+    }
+
+    .contact-left__text {
+        width: 320px;
+        font-size: 14px;
+    }
+
+    .contact-right__block {
+        width: 330px;
+        padding: 30px 10px;
+    }
+
+    .contact-right__item {
+        padding: 0 5px;
+    }
+
+    .info__left {
+        margin-left: 0;
+        width: 95%;
+    }
+
+    .contact__bg__img1 {
+        top: 215px;
+        left: -180px;
+    }
+
+    .contact__bg__img2 {
+        top: 530px;
+        right: -168px;
+    }
+
+    .info__right {
+        align-items: center;
+    }
+
+    .info__right__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .info__right__block {
+        width: 380px;
+    }
+
+    .info-list__item {
+        width: 320px;
+        font-size: 14px;
+    }
+
+    .info__bg__img5 {
+        right: -190px;
+    }
+
+    .info__bg__img4 {
+        right: 70px;
+    }
+
+    .clinic__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clinic__list__item {
+        width: 320px;
+    }
+
+    .clinic__right {
+        width: 500px;
+        margin-top: 50px;
+    }
+
+    .clinic__bg__img3 {
+        width: 340px;
+        right: 30px;
+        bottom: 5px;
+    }
+
+    .clinic__bg__img2 {
+        width: 90px;
+    }
+
+    .clinic__bg__img4 {
+        top: 30px;
+        right: -15px;
+    }
+
+    .clinic__bg__img7 {
+        width: 250px;
+        right: -160px;
+        top: 800px;
+    }
+
+    .spec__title {
+        margin-top: 30px;
+    }
+
+    .spec__block__text {
+        font-size: 16px;
+    }
+
+    .spec__table {
+        padding-left: 20px;
+    }
+
+    .spec__table > tbody > tr {
+        font-size: 14px;
+    }
+
+    .spec__bg__img1 {
+        right: -145px;
+        top: -250px;
+    }
+
+    .spec__bg__img2 {
+        width: 410px;
+    }
+
+    .spec__bg__img4 {
+        width: 100px;
+        right: 20px;
+        top: 450px;
+    }
+
+    .spec__bg__img5 {
+        left: 240px;
+    }
+
+    .spec__bg__img6 {
+        top: 460px;
+    }
+
+    .spec__bg__img8 {
+        width: 120px;
+        right: -40px;
+        bottom: -100px;
+    }
+
+    .map__title {
+        margin-left: 90px;
+        margin-bottom: 60px;
+    }
+
+    .map__button {
+        top: 930px;
+        font-size: 22px;
+    }
+
+    .map__main__right {
+        margin-top: 140px;
+        width: 100%;
+        border-radius: 40px;
+    }
+
+    .map__bg__img2 {
+        width: 70px;
+        left: 130px;
+    }
+
+    .map__bg__img3 {
+        left: -80px;
+        top: 30px;
+        width: 310px;
+    }
+
+    .map__bg__img4 {
+        right: -150px;
+        top: -90px;
+    }
+
+    .map__bg__img5 {
+        width: 390px;
+        top: 150px;
+    }
+
+    .map__bg__img6 {
+        top: 235px;
+        right: 130px;
+        width: 300px;
+    }
+
+    .map__bg__mobileImg1 {
+        right: -240px;
+        top: 500px;
+    }
+
+    .map__bg__mobileImg2 {
+        top: 240px;
+    }
+
+    .footer {
+        padding: 30px 0 60px;
+    }
+
+    .footer__row {
+        padding: 25px 20px;
+    }
+
+    .footer__list {
+        margin-right: 0;
+    }
+
+    .footer-info__number,
+    .footer-info__text {
+        font-size: 14px;
+    }
+
+    .footer__list__link {
+        width: 170px;
+        font-size: 14px;
+    }
+
+    .footer__telegram {
+        height: 160px;
+    }
+
+    .footer__bg__img2,
+    .footer__bg__img3 {
+        display: none;
+    }
+
+    .footer__bg__img5 {
+        width: 90px;
+    }
+
 }
 
 
