@@ -53,6 +53,39 @@ body {
     overflow: hidden;
 }
 
+.header__layer {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+.header__layer__top > img,
+.header__layer__bottom > img {
+    width: 100%;
+}
+
+.header__layer__top {
+    width: 370px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+.header__layer__bottom {
+    width: 760px;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: 4;
+}
+
 .header__bg {
     width: 100%;
     position: absolute;
@@ -1353,6 +1386,27 @@ body {
 }
 
 .education__bg__img {
+    width: 100%;
+}
+
+.education__row__img1 {
+    position: absolute;
+    left: 0;
+    top: -350px;
+}
+
+.education__row__img2 {
+    width: 200px;
+    position: absolute;
+    right: 100px;
+    transform: rotate(240deg);
+    top: -26px;
+}
+
+.education__row__img1 > img,
+.education__row__img2 > img,
+.education__row__img3 > img,
+.education__row__img4 > img {
     width: 100%;
 }
 
