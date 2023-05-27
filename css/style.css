@@ -887,6 +887,10 @@ body {
     margin-left: -150px;
 }
 
+.map__main__right > img {
+    width: 100%;
+}
+
 .map__main__right {
     width: 824px;
     height: 609px;
