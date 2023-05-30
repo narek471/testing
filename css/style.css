@@ -1719,7 +1719,7 @@ body {
     /********** Profile *********/
 
     .profile {
-        overflow-y: auto;
+        overflow-y: scroll;
         height: unset;
         min-height: 100vh;
         -webkit-overflow-scrolling: touch;
@@ -1752,7 +1752,7 @@ body {
     /******** Promotion ********/
 
     .promotion {
-        overflow-y: auto;
+        overflow-y: scroll;
         height: unset;
         min-height: 100vh;
         -webkit-overflow-scrolling: touch;
@@ -1773,7 +1773,7 @@ body {
     /******** Education ********/
 
     .education {
-        overflow-y: auto;
+        overflow-y: scroll;
         height: unset;
         min-height: 100vh;
         -webkit-overflow-scrolling: touch;
