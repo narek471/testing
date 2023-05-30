@@ -1722,6 +1722,7 @@ body {
         overflow-y: auto;
         height: unset;
         min-height: 100vh;
+        -webkit-overflow-scrolling: touch;
     }
 
     .profile__row {
@@ -1754,6 +1755,7 @@ body {
         overflow-y: auto;
         height: unset;
         min-height: 100vh;
+        -webkit-overflow-scrolling: touch;
     }
 
     .promotion__title {
@@ -1774,6 +1776,7 @@ body {
         overflow-y: auto;
         height: unset;
         min-height: 100vh;
+        -webkit-overflow-scrolling: touch;
     }
 
     .education__row {
@@ -2547,10 +2550,6 @@ body {
     .promotion__bg__img1 {
         width: 500px;
         bottom: -390px;
-    }
-
-    .promotion__bg__img1 {
-
     }
 
     /*****************************/
