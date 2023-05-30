@@ -1721,7 +1721,6 @@ body {
     .profile {
         overflow-y: scroll;
         height: unset;
-        min-height: 100vh;
         -webkit-overflow-scrolling: touch;
     }
 
@@ -1754,7 +1753,6 @@ body {
     .promotion {
         overflow-y: scroll;
         height: unset;
-        min-height: 100vh;
         -webkit-overflow-scrolling: touch;
     }
 
@@ -1775,7 +1773,6 @@ body {
     .education {
         overflow-y: scroll;
         height: unset;
-        min-height: 100vh;
         -webkit-overflow-scrolling: touch;
     }
 
