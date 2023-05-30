@@ -2894,14 +2894,16 @@ body {
     /********* Promotion *********/
 
     .promotion {
-        height: 844px;
+        height: unset;
+        min-height: unset;
+        overflow-y: auto;
+        padding-bottom: 0;
     }
 
 
     .promotion__title:after {
         filter: blur(3.5px);
     }
-
 
 
     /*****************************/
