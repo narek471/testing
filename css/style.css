@@ -2865,6 +2865,7 @@ body {
     .profile__title:after {
         font-size: 32px;
         top: -20px;
+        filter: blur(3.5px);
     }
 
     .profile__list {
@@ -2887,6 +2888,17 @@ body {
     .home-link {
         font-size: 18px;
     }
+
+    /*****************************/
+
+    /********* Promotion *********/
+
+
+    .promotion__title:after {
+        filter: blur(3.5px);
+    }
+
+
 
     /*****************************/
 
@@ -2917,7 +2929,7 @@ body {
         position: absolute;
         width: 110px;
         left: 30px;
-        bottom: 60px;
+        bottom: 20px;
     }
 
     .education__row__mobileImg6 {
@@ -2942,6 +2954,7 @@ body {
     .education__title:after {
         font-size: 32px;
         top: -20px;
+        filter: blur(3.5px);
     }
 
     .education__content__text {
