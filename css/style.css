@@ -1753,6 +1753,7 @@ body {
     .promotion {
         height: auto;
         -webkit-overflow-scrolling: touch;
+        padding-bottom: 300px;
     }
 
     .promotion__title {
