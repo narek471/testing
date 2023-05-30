@@ -497,6 +497,13 @@ body {
     line-height: 150%;
     color: #232323;
     margin-left: 24px;
+    transition: all 0.2s ease;
+}
+
+.right-block__text:hover {
+    color: #1d4c64;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .clinic {
@@ -855,23 +862,22 @@ body {
     width: 287px;
     padding: 15px;
     color: #ffffff;
-    background: #B0DBE3;
+    background: transparent;
     border-radius: 19px;
     font-weight: 500;
     font-size: 24px;
     line-height: 130%;
     border: 0;
-    cursor: pointer;
     transition: all 0.3s;
     margin-left: 400px;
     z-index: 2;
 }
 
-.map__button:hover {
-    color: #B0DBE3;
-    background: #fff;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-}
+/*.map__button:hover {*/
+/*    color: #B0DBE3;*/
+/*    background: #fff;*/
+/*    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);*/
+/*}*/
 
 .map__main {
     width: 100%;
@@ -887,9 +893,14 @@ body {
     margin-left: -150px;
 }
 
-/*.map__main__right > img {*/
-/*    width: 100%;*/
-/*}*/
+.google-map {
+    display: none;
+    width: 824px;
+    height: 609px;
+    border-radius: 90px;
+    margin-left: -110px;
+    margin-bottom: 40px;
+}
 
 .map__main__right {
     width: 824px;
@@ -1444,6 +1455,13 @@ body {
     width: 100%;
 }
 
+.education__row__mobileImg3,
+.education__row__mobileImg4,
+.education__row__mobileImg5,
+.education__row__mobileImg6 {
+    display: none;
+}
+
 .education__row {
     width: 100%;
     position: relative;
@@ -1979,7 +1997,6 @@ body {
         margin-left: unset;
         margin-top: 180px;
         width: 95%;
-        height: unset;
     }
 
     .map__bg__img1 {
@@ -2877,6 +2894,45 @@ body {
 
     .education__bg {
         bottom: -5px;
+    }
+
+    .education__row__mobileImg3 {
+        display: block;
+        position: absolute;
+        width: 70px;
+        left: 20px;
+        top: 100px;
+    }
+
+    .education__row__mobileImg4 {
+        display: block;
+        position: absolute;
+        width: 450px;
+        right: -150px;
+        bottom: 0;
+    }
+
+    .education__row__mobileImg5 {
+        display: block;
+        position: absolute;
+        width: 110px;
+        left: 30px;
+        bottom: 60px;
+    }
+
+    .education__row__mobileImg6 {
+        display: block;
+        position: absolute;
+        width: 70px;
+        left: 130px;
+        bottom: 0;
+    }
+
+    .education__row__mobileImg3 > img,
+    .education__row__mobileImg4 > img,
+    .education__row__mobileImg5 > img,
+    .education__row__mobileImg6 > img {
+        width: 100%;
     }
 
     .education__title {
