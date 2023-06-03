@@ -7,9 +7,10 @@ $('.header__banner__carousel').owlCarousel({
 })
 
 $('.models__carousel').owlCarousel({
-    loop:true,
+    autoWidth: true,
+    loop:false,
     margin:30,
     nav:false,
     dots: false,
-    autoplay:false
+    autoplay:false,
 })
