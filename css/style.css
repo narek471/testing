@@ -1067,6 +1067,7 @@ input[type=number] {
     display: flex;
     flex-direction: column;
     z-index: 2;
+    padding-left: 20px;
 }
 
 .models__top {
@@ -2084,6 +2085,428 @@ input[type=number] {
     .buy__bg__arrow5 {
         bottom: -45px;
         right: 140px;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+
+    .header__video {
+        top: 260px;
+    }
+
+    .header__background {
+        top: 260px;
+    }
+
+    .header__banner__icon > img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .header__logo__link {
+        width: 50%;
+        justify-content: flex-start;
+    }
+
+    .header__top__address {
+        width: 50%;
+    }
+
+    .header__top__mail {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .header__title {
+        width: 100%;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .header__subtitle {
+        font-size: 26px;
+        line-height: 35px;
+    }
+
+    .header__button__test,
+    .header__button__sum {
+        padding: 24px 40px;
+        font-size: 22px;
+    }
+
+    .header__banner__text {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .models__top__title,
+    .map__right__title,
+    .test__title,
+    .compare__bottom__title,
+    .compare__top__title,
+    .buy__title,
+    .why__top__title,
+    .price__title,
+    .ideal__title {
+        width: unset;
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 50px;
+    }
+
+    .price__subtitle {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .price__text {
+        font-size: 20px;
+    }
+
+    .buy_bg__transparent {
+        width: 220px;
+        height: 210px;
+    }
+
+    .buy__bg__white {
+        width: 190px;
+        height: 180px;
+    }
+
+    .buy__img {
+        width: 100px;
+    }
+
+    .buy__bg__arrow1 {
+        top: -55px;
+        right: 55px;
+    }
+
+    .buy__bg__arrow2 {
+        top: -10px;
+        right: -45px;
+    }
+
+    .buy__bg__arrow3 {
+        top: 81px;
+        right: -90px;
+    }
+
+    .buy__bg__arrow4 {
+        right: -37px;
+        bottom: -35px;
+    }
+
+    .buy__bg__arrow5 {
+        bottom: -55px;
+        right: 85px;
+    }
+
+    .compare-table > tbody > tr > td {
+        padding: 10px;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .compare__bottom {
+        margin-top: 60px;
+    }
+
+    .compare__bottom__text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .compare__bottom__form {
+        padding: 20px;
+    }
+
+    .map-form__name,
+    .map-form__tel,
+    .compare-form__tel,
+    .compare-form__name {
+        font-size: 20px;
+        padding: 15px;
+        height: 50px;
+    }
+
+    .map-form__button,
+    .compare-form__button {
+        font-size: 20px;
+        height: 50px;
+        padding: 0;
+    }
+
+    .models__row {
+        padding-left: 10px;
+    }
+
+    .models__carousel__item {
+        width: 420px;
+    }
+
+    .models-item__top {
+        margin: 25px 10px;
+        width: 420px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .leasing__right__title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .leasing__right__button {
+        font-size: 20px;
+    }
+
+    .test__row {
+        align-items: center;
+    }
+
+    .test__content {
+        width: 100%;
+        padding-left: 0;
+        border-left: 0;
+    }
+
+    .test__subtitle {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .test__button {
+        font-size: 20px;
+        padding: 15px 60px;
+    }
+
+    .map__right {
+        width: 100%;
+    }
+
+    .footer__list__link {
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (max-width: 447px) {
+
+    .header__background,
+    .header__video {
+        top: 230px;
+    }
+
+    .header__top__address {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .header__top__mail {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .header__top__phone {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .header__title {
+        margin-top: 50px;
+    }
+
+    .header__subtitle {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .header__banner__block {
+        margin-top: 80px;
+    }
+
+    .header__button__test,
+    .header__button__sum {
+        padding: 20px 40px;
+        font-size: 18px;
+    }
+
+    .header__banner__text {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .header__banner__icon > img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .owl-dot > span {
+        width: 17px;
+        height: 17px;
+        border-radius: 17px;
+    }
+
+    .models__top__title,
+    .map__right__title,
+    .test__title,
+    .compare__bottom__title,
+    .compare__top__title,
+    .buy__title,
+    .why__top__title,
+    .price__title,
+    .ideal__title {
+        font-size: 26px;
+        line-height: 35px;
+    }
+
+    .ideal__main__text {
+        font-size: 20px;
+    }
+
+    .ideal__right {
+        width: 100%;
+    }
+
+    .ideal__block__bg {
+        width: 160px;
+    }
+
+    .ideal__block__bg > img {
+        width: 150px;
+    }
+
+    .ideal__block__content {
+        margin-left: 10px;
+        width: 150px;
+    }
+
+    .price__subtitle {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .map-form__name,
+    .map-form__tel,
+    .compare-form__tel,
+    .compare-form__name,
+    .price__form__tel,
+    .price__form__name {
+        width: 300px;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .map-form__button,
+    .compare-form__button,
+    .price__form__button {
+        width: 300px;
+        font-size: 18px;
+    }
+
+    .buy__bg__white {
+        width: 150px;
+        height: 145px;
+    }
+
+    .buy_bg__transparent {
+        width: 180px;
+        height: 175px;
+    }
+
+    .buy__bg__arrow1 {
+        top: -20px;
+        right: 55px;
+    }
+
+    .buy__bg__arrow2 {
+        top: 20px;
+        right: -15px;
+    }
+
+    .buy__bg__arrow3 {
+        top: 75px;
+        right: -35px;
+    }
+
+    .buy__bg__arrow4 {
+        right: -10px;
+        bottom: -25px;
+    }
+
+    .buy__bg__arrow5 {
+        bottom: -23px;
+        right: 80px;
+    }
+
+    .buy__bg__arrow1:after, .buy__bg__arrow2:after, .buy__bg__arrow3:after, .buy__bg__arrow4:after, .buy__bg__arrow5:after {
+        width: 100px;
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .compare__bottom__form {
+        padding: 20px 5px 20px;
+    }
+
+    .models__carousel__item {
+        width: 320px;
+    }
+
+    .models-item__top {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 25px;
+    }
+
+    .models-item__right {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .leasing__right__button {
+        font-size: 18px;
+        padding: 23px 15px;
+    }
+
+    .leasing__right {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .leasing__right__title {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .leasing__right__text {
+        width: unset;
+    }
+
+    .test__button {
+        width: 300px;
+    }
+
+    .test__text {
+        margin-top: 90px;
+    }
+
+    .map__right__text {
+        font-size: 20px;
+    }
+
+    .footer__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__list__item {
+        margin-top: 10px;
     }
 
 }

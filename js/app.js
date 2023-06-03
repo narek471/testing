@@ -12,5 +12,6 @@ $('.models__carousel').owlCarousel({
     margin:30,
     nav:false,
     dots: false,
+    items: 1,
     autoplay:false,
 })
