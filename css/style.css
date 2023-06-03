@@ -2511,6 +2511,32 @@ input[type=number] {
 
 }
 
+@media only screen and (max-width: 347px) {
+
+    .header__top__address {
+        font-size: 14px;
+    }
+
+    .header__button__test, .header__button__sum {
+        padding: 20px;
+    }
+
+    .compare-table > tbody > tr > td {
+        padding: 5px;
+    }
+
+    .compare-form__name,
+    .compare-form__tel,
+    .compare-form__button {
+        width: 280px;
+    }
+
+    .test__block {
+        width: 300px;
+    }
+
+}
+
 
 
 
