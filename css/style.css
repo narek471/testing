@@ -960,6 +960,10 @@ input[type=number] {
     background: #604941;
 }
 
+.character__table > tbody > tr > td:nth-child(1) {
+    color: #ffffff;
+}
+
 .character__table > tbody > tr > td {
     padding: 17px 0;
 }
