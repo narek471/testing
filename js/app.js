@@ -21,7 +21,7 @@ if(button && mobileMenu) {
     })
 }
 
-if(menuItems) {
+if(menuItems && spans) {
     menuItems.forEach(element => {
         element.addEventListener('click', (e) => {
             e.preventDefault();

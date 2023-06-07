@@ -1243,6 +1243,10 @@ input[type=number] {
     margin-top: 60px;
 }
 
+.footer__block {
+    display: none;
+}
+
 /***************************************/
 
 /**************** Media ****************/
@@ -1450,7 +1454,7 @@ input[type=number] {
         line-height: 30px;
     }
 
-    .header__top__button {
+    .header__top__link {
         display: none;
     }
 
@@ -1571,6 +1575,20 @@ input[type=number] {
     .footer__tel {
         font-size: 14px;
         margin-top: 0;
+    }
+
+    .footer__block {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .footer__link__hide {
+        width: 35px;
+        height: 35px;
+        margin-right: 15px;
     }
 
 }
