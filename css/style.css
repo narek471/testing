@@ -1626,6 +1626,8 @@ input[type=number] {
 
     .company {
         padding-top: 75px;
+        background-size: contain;
+        background-position: top;
     }
 
     .company__row {
