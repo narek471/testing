@@ -27,6 +27,9 @@ if(menuItems) {
             e.preventDefault();
             mobileMenu.classList.toggle('active');
             document.body.style.overflowY = 'auto';
+            spans.forEach(e => {
+                e.classList.toggle('active');
+            })
         })
     })
 }
