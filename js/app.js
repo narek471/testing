@@ -64,3 +64,19 @@ sourceButton.addEventListener('click', () => {
         sourceButton.textContent = "+  5 источников";
     }
 })
+
+//Forum
+
+const forumOpenBtn = document.querySelector('.question__content__button');
+const hideAnswers = document.querySelectorAll('.question__content__hide');
+
+forumOpenBtn.addEventListener('click', () => {
+    hideAnswers.forEach(block => {
+        block.classList.toggle('active')
+        if (block.classList.contains('active')) {
+            forumOpenBtn.textContent = "Скрыть";
+        } else {
+            forumOpenBtn.textContent = "Показать еще";
+        }
+    })
+})
