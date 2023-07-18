@@ -1732,6 +1732,44 @@ input[type=number] {
     box-shadow: 20px 20px 40px 0 rgba(0, 0, 0, 0.25);
 }
 
+/**********************************/
+
+/************* Footer ************/
+
+.footer {
+    width: 100%;
+    position: relative;
+    padding: 11px 0 15px;
+    background-color: #F1E9CE;
+}
+
+.footer__row {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__logo {
+    width: 268px;
+    position: relative;
+}
+
+.footer__logo__img {
+    width: 100%;
+}
+
+.footer__text {
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 80px;
+    color: #424242;
+}
+
 /************* Modal *************/
 
 /*********************************/
@@ -1942,6 +1980,11 @@ input[type=number] {
 
     .female__right {
         margin-left: 5px;
+    }
+
+    .footer__text {
+        font-size: 40px;
+        line-height: 40px;
     }
 
 }
@@ -2454,6 +2497,16 @@ input[type=number] {
 
     .question__right__span {
         padding-left: 0;
+    }
+
+    .footer__logo {
+        width: 200px;
+    }
+
+    .footer__text {
+        font-size: 30px;
+        text-align: center;
+        line-height: 30px;
     }
 
     .modal__content {
